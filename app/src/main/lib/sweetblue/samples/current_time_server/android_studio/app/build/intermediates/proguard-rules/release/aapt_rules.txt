@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:26
+-keep class com.idevicesinc.sweetblue.current_time_server.MyActivity { <init>(...); }
+

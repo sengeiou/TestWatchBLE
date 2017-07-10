@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="@string/SpO2"
+        android:textSize="24sp"
+        tools:layout_conversion_absoluteX="62dp"
+        tools:layout_conversion_absoluteY="0dp"
+        tools:layout_conversion_absoluteWidth="62dp"
+        tools:layout_conversion_absoluteHeight="30dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="62dp" />
+
+    <TextView
+        android:id="@+id/valueView"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:text="SpO2"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_conversion_absoluteX="0dp"
+        tools:layout_conversion_absoluteY="30dp"
+        tools:layout_conversion_absoluteWidth="186dp"
+        tools:layout_conversion_absoluteHeight="35dp"
+        tools:layout_editor_absoluteY="30dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Start"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_conversion_absoluteHeight="121dp"
+        tools:layout_conversion_absoluteWidth="186dp"
+        tools:layout_conversion_absoluteX="0dp"
+        tools:layout_conversion_absoluteY="65dp" />
+
+</android.support.constraint.ConstraintLayout>

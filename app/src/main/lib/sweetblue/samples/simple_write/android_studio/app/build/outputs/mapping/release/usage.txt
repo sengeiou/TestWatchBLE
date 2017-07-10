@@ -1,0 +1,1623 @@
+com.idevicesinc.sweetblue.BleAdvertisingPacket:
+    37:43:public BleAdvertisingPacket(java.util.UUID[],java.util.Map,int,int,byte[])
+    51:52:public BleAdvertisingPacket(java.util.UUID)
+    59:60:public varargs BleAdvertisingPacket(java.util.UUID,com.idevicesinc.sweetblue.BleAdvertisingPacket$Option[])
+    68:69:public BleAdvertisingPacket(java.util.UUID,int)
+    76:77:public varargs BleAdvertisingPacket(java.util.UUID,int,com.idevicesinc.sweetblue.BleAdvertisingPacket$Option[])
+    85:86:public BleAdvertisingPacket(java.util.UUID,int,byte[])
+    93:94:public varargs BleAdvertisingPacket(java.util.UUID,int,byte[],com.idevicesinc.sweetblue.BleAdvertisingPacket$Option[])
+    102:103:public BleAdvertisingPacket(java.util.UUID[])
+    109:110:public varargs BleAdvertisingPacket(java.util.UUID[],com.idevicesinc.sweetblue.BleAdvertisingPacket$Option[])
+    118:119:public BleAdvertisingPacket(java.util.UUID[],int)
+    126:127:public varargs BleAdvertisingPacket(java.util.UUID[],int,com.idevicesinc.sweetblue.BleAdvertisingPacket$Option[])
+    135:136:public BleAdvertisingPacket(java.util.UUID[],int,byte[])
+    143:144:public varargs BleAdvertisingPacket(java.util.UUID[],int,byte[],com.idevicesinc.sweetblue.BleAdvertisingPacket$Option[])
+    152:153:public BleAdvertisingPacket(java.util.UUID,java.util.UUID,byte[])
+    160:161:public varargs BleAdvertisingPacket(java.util.UUID,java.util.UUID,byte[],com.idevicesinc.sweetblue.BleAdvertisingPacket$Option[])
+    169:170:public BleAdvertisingPacket(java.util.UUID[],java.util.UUID,byte[])
+    177:178:public varargs BleAdvertisingPacket(java.util.UUID[],java.util.UUID,byte[],com.idevicesinc.sweetblue.BleAdvertisingPacket$Option[])
+    186:187:public BleAdvertisingPacket(java.util.UUID,java.util.Map)
+    194:195:public varargs BleAdvertisingPacket(java.util.UUID,java.util.Map,com.idevicesinc.sweetblue.BleAdvertisingPacket$Option[])
+    203:204:public BleAdvertisingPacket(java.util.UUID,java.util.Map,int,byte[])
+    211:212:public varargs BleAdvertisingPacket(java.util.UUID,java.util.Map,int,byte[],com.idevicesinc.sweetblue.BleAdvertisingPacket$Option[])
+    220:221:public BleAdvertisingPacket(java.util.UUID,byte[])
+    228:229:public varargs BleAdvertisingPacket(java.util.UUID,byte[],com.idevicesinc.sweetblue.BleAdvertisingPacket$Option[])
+    237:238:public BleAdvertisingPacket(java.util.UUID,byte[],int,byte[])
+    245:246:public varargs BleAdvertisingPacket(java.util.UUID,byte[],int,byte[],com.idevicesinc.sweetblue.BleAdvertisingPacket$Option[])
+    253:253:public int getManufacturerId()
+    261:261:public byte[] getManufacturerData()
+    326:346:public boolean hasUuid(java.util.UUID)
+    354:354:public java.util.UUID[] getUuids()
+    362:362:public java.util.Map getServiceData()
+com.idevicesinc.sweetblue.BleAdvertisingPacket$1
+com.idevicesinc.sweetblue.BleAdvertisingPacket$2
+com.idevicesinc.sweetblue.BleAdvertisingPacket$3
+com.idevicesinc.sweetblue.BleAdvertisingPacket$4
+com.idevicesinc.sweetblue.BleAdvertisingPacket$5
+com.idevicesinc.sweetblue.BleAdvertisingPacket$6
+com.idevicesinc.sweetblue.BleAdvertisingPacket$7
+com.idevicesinc.sweetblue.BleAdvertisingPacket$8
+com.idevicesinc.sweetblue.BleAdvertisingPacket$Option:
+    384:391:public static int getFlags(com.idevicesinc.sweetblue.BleAdvertisingPacket$Option[])
+    396:396:public int or(com.idevicesinc.sweetblue.utils.BitwiseEnum)
+    401:401:public int or(int)
+com.idevicesinc.sweetblue.BleAdvertisingSettings:
+    private final com.idevicesinc.sweetblue.BleAdvertisingSettings$BleAdvertisingMode m_mode
+    private final com.idevicesinc.sweetblue.BleAdvertisingSettings$BleTransmissionPower m_power
+    private final com.idevicesinc.sweetblue.utils.Interval m_timeout
+    108:112:public BleAdvertisingSettings(com.idevicesinc.sweetblue.BleAdvertisingSettings$BleAdvertisingMode,com.idevicesinc.sweetblue.BleAdvertisingSettings$BleTransmissionPower,com.idevicesinc.sweetblue.utils.Interval)
+    121:122:public BleAdvertisingSettings()
+    129:130:public BleAdvertisingSettings(com.idevicesinc.sweetblue.BleAdvertisingSettings$BleTransmissionPower,com.idevicesinc.sweetblue.utils.Interval)
+    138:139:public BleAdvertisingSettings(com.idevicesinc.sweetblue.BleAdvertisingSettings$BleTransmissionPower)
+    147:148:public BleAdvertisingSettings(com.idevicesinc.sweetblue.utils.Interval)
+    154:154:public com.idevicesinc.sweetblue.BleAdvertisingSettings$BleAdvertisingMode getAdvertisingMode()
+    161:161:public com.idevicesinc.sweetblue.BleAdvertisingSettings$BleTransmissionPower getTransmissionPower()
+    168:168:public com.idevicesinc.sweetblue.utils.Interval getTimeout()
+com.idevicesinc.sweetblue.BleCharacteristic
+com.idevicesinc.sweetblue.BleCharacteristicPermission
+com.idevicesinc.sweetblue.BleCharacteristicProperty
+com.idevicesinc.sweetblue.BleDescriptor
+com.idevicesinc.sweetblue.BleDescriptorPermission
+com.idevicesinc.sweetblue.BleDevice:
+    1945:1945:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent reliableWrite_begin(com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    1955:1955:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent reliableWrite_abort()
+    1965:1965:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent reliableWrite_execute()
+    2022:2025:private void clear_common()
+    2092:2092:public final com.idevicesinc.sweetblue.BleDeviceConfig getConfig()
+    2124:2124:public final com.idevicesinc.sweetblue.utils.EpochTime getLastDiscoveryTime()
+    2148:2153:public final com.idevicesinc.sweetblue.utils.State$ChangeIntent getLastDisconnectIntent()
+    2163:2173:public final void setListener_State(com.idevicesinc.sweetblue.BleDevice$StateListener)
+    2217:2217:public final com.idevicesinc.sweetblue.DeviceStateListener getStateListener()
+    2253:2272:public final void setListener_ReadWrite(com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    2283:2286:public final void setListener_ReadWrite(com.idevicesinc.sweetblue.ReadWriteListener)
+    2295:2298:public final void setListener_Notification(com.idevicesinc.sweetblue.NotificationListener)
+    2306:2309:public final void setListener_HistoricalDataLoad(com.idevicesinc.sweetblue.BleNode$HistoricalDataLoadListener)
+    2318:2320:public final int getConnectionRetryCount()
+    2354:2354:public final com.idevicesinc.sweetblue.utils.Interval getAverageReadTime()
+    2366:2366:public final com.idevicesinc.sweetblue.utils.Interval getAverageWriteTime()
+    2405:2411:public final com.idevicesinc.sweetblue.utils.Distance getDistance()
+    2425:2440:public final int getTxPower()
+    2459:2459:public final int getAdvertisingFlags()
+    2467:2468:public final java.util.UUID[] getAdvertisedServices()
+    2476:2478:public final byte[] getManufacturerData()
+    2486:2488:public final int getManufacturerId()
+    2496:2500:public final java.util.Map getAdvertisedServiceData()
+    2509:2509:public final java.lang.String getHistoricalDataTableName(java.util.UUID)
+    2522:2522:public final com.idevicesinc.sweetblue.utils.HistoricalDataCursor getHistoricalData_cursor(java.util.UUID)
+    2533:2533:public final com.idevicesinc.sweetblue.utils.HistoricalDataCursor getHistoricalData_cursor(java.util.UUID,com.idevicesinc.sweetblue.utils.EpochTimeRange)
+    2542:2543:public final void loadHistoricalData()
+    2551:2552:public final void loadHistoricalData(java.util.UUID)
+    2560:2561:public final void loadHistoricalData(com.idevicesinc.sweetblue.BleNode$HistoricalDataLoadListener)
+    2569:2572:public final void loadHistoricalData(java.util.UUID,com.idevicesinc.sweetblue.BleNode$HistoricalDataLoadListener)
+    2581:2581:public final boolean isHistoricalDataLoading()
+    2591:2591:public final boolean isHistoricalDataLoading(java.util.UUID)
+    2604:2604:public final boolean isHistoricalDataLoaded()
+    2616:2616:public final boolean isHistoricalDataLoaded(java.util.UUID)
+    2632:2632:public final com.idevicesinc.sweetblue.utils.HistoricalData getHistoricalData_latest(java.util.UUID)
+    2644:2644:public final java.util.Iterator getHistoricalData_iterator(java.util.UUID)
+    2656:2658:public final java.util.Iterator getHistoricalData_iterator(java.util.UUID,com.idevicesinc.sweetblue.utils.EpochTimeRange)
+    2671:2671:public final boolean getHistoricalData_forEach(java.util.UUID,com.idevicesinc.sweetblue.utils.ForEach_Void)
+    2684:2686:public final boolean getHistoricalData_forEach(java.util.UUID,com.idevicesinc.sweetblue.utils.EpochTimeRange,com.idevicesinc.sweetblue.utils.ForEach_Void)
+    2699:2699:public final boolean getHistoricalData_forEach(java.util.UUID,com.idevicesinc.sweetblue.utils.ForEach_Breakable)
+    2712:2714:public final boolean getHistoricalData_forEach(java.util.UUID,com.idevicesinc.sweetblue.utils.EpochTimeRange,com.idevicesinc.sweetblue.utils.ForEach_Breakable)
+    2728:2728:public final com.idevicesinc.sweetblue.utils.HistoricalData getHistoricalData_atOffset(java.util.UUID,int)
+    2740:2742:public final com.idevicesinc.sweetblue.utils.HistoricalData getHistoricalData_atOffset(java.util.UUID,com.idevicesinc.sweetblue.utils.EpochTimeRange,int)
+    2754:2754:public final int getHistoricalDataCount(java.util.UUID)
+    2767:2769:public final int getHistoricalDataCount(java.util.UUID,com.idevicesinc.sweetblue.utils.EpochTimeRange)
+    2781:2781:public final boolean hasHistoricalData()
+    2793:2795:public final boolean hasHistoricalData(com.idevicesinc.sweetblue.utils.EpochTimeRange)
+    2807:2807:public final boolean hasHistoricalData(java.util.UUID)
+    2819:2826:public final boolean hasHistoricalData(java.util.UUID[])
+    2838:2840:public final boolean hasHistoricalData(java.util.UUID,com.idevicesinc.sweetblue.utils.EpochTimeRange)
+    2855:2858:public final void addHistoricalData(java.util.UUID,byte[],com.idevicesinc.sweetblue.utils.EpochTime)
+    2866:2867:public final void addHistoricalData(java.util.UUID,com.idevicesinc.sweetblue.utils.EpochTime,byte[])
+    2878:2881:public final void addHistoricalData(java.util.UUID,byte[])
+    2892:2895:public final void addHistoricalData(java.util.UUID,com.idevicesinc.sweetblue.utils.HistoricalData)
+    2906:2909:public final void addHistoricalData(java.util.UUID,java.util.Iterator)
+    2920:2921:public final void addHistoricalData(java.util.UUID,java.util.List)
+    2932:2935:public final void addHistoricalData(java.util.UUID,com.idevicesinc.sweetblue.utils.ForEach_Returning)
+    2959:2963:public final varargs boolean isAll(com.idevicesinc.sweetblue.BleDeviceState[])
+    2973:2979:public final boolean isConnectable()
+    3000:3000:public final boolean isAny(int)
+    3010:3010:public final boolean isAll(int)
+    3020:3020:public final varargs boolean is(java.lang.Object[])
+    3058:3058:public final com.idevicesinc.sweetblue.utils.Interval getTimeInState(com.idevicesinc.sweetblue.BleDeviceState)
+    3066:3067:public final void refreshGattDatabase()
+    3078:3096:public final void refreshGattDatabase(com.idevicesinc.sweetblue.utils.Interval)
+    3104:3105:public final void setName(java.lang.String)
+    3114:3114:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent setName(java.lang.String,java.util.UUID)
+    3128:3156:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent setName(java.lang.String,java.util.UUID,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    3165:3167:public final void clearName()
+    3176:3176:public final java.lang.String getName_override()
+    3188:3188:public final java.lang.String getName_native()
+    3205:3205:public final java.lang.String getName_normalized()
+    3304:3304:public final com.idevicesinc.sweetblue.BleDevice$BondListener$BondEvent bond()
+    3351:3351:public final com.idevicesinc.sweetblue.BleDevice$ConnectionFailListener$ConnectionFailEvent connect(com.idevicesinc.sweetblue.BleDevice$ConnectionFailListener)
+    3371:3371:public final com.idevicesinc.sweetblue.BleDevice$ConnectionFailListener$ConnectionFailEvent connect(com.idevicesinc.sweetblue.BleDevice$ConnectionFailListener,com.idevicesinc.sweetblue.BleDevice$StateListener)
+    3387:3387:public final com.idevicesinc.sweetblue.BleDevice$ConnectionFailListener$ConnectionFailEvent connect(com.idevicesinc.sweetblue.BleTransaction$Auth)
+    3397:3397:public final com.idevicesinc.sweetblue.BleDevice$ConnectionFailListener$ConnectionFailEvent connect(com.idevicesinc.sweetblue.BleTransaction$Auth,com.idevicesinc.sweetblue.BleDevice$StateListener)
+    3409:3409:public final com.idevicesinc.sweetblue.BleDevice$ConnectionFailListener$ConnectionFailEvent connect(com.idevicesinc.sweetblue.BleTransaction$Auth,com.idevicesinc.sweetblue.BleDevice$StateListener,com.idevicesinc.sweetblue.BleDevice$ConnectionFailListener)
+    3424:3424:public final com.idevicesinc.sweetblue.BleDevice$ConnectionFailListener$ConnectionFailEvent connect(com.idevicesinc.sweetblue.BleTransaction$Init)
+    3434:3434:public final com.idevicesinc.sweetblue.BleDevice$ConnectionFailListener$ConnectionFailEvent connect(com.idevicesinc.sweetblue.BleTransaction$Init,com.idevicesinc.sweetblue.BleDevice$StateListener)
+    3444:3444:public final com.idevicesinc.sweetblue.BleDevice$ConnectionFailListener$ConnectionFailEvent connect(com.idevicesinc.sweetblue.BleTransaction$Auth,com.idevicesinc.sweetblue.BleDevice$ConnectionFailListener)
+    3455:3455:public final com.idevicesinc.sweetblue.BleDevice$ConnectionFailListener$ConnectionFailEvent connect(com.idevicesinc.sweetblue.BleTransaction$Init,com.idevicesinc.sweetblue.BleDevice$StateListener,com.idevicesinc.sweetblue.BleDevice$ConnectionFailListener)
+    3468:3468:public final com.idevicesinc.sweetblue.BleDevice$ConnectionFailListener$ConnectionFailEvent connect(com.idevicesinc.sweetblue.BleTransaction$Auth,com.idevicesinc.sweetblue.BleTransaction$Init)
+    3478:3478:public final com.idevicesinc.sweetblue.BleDevice$ConnectionFailListener$ConnectionFailEvent connect(com.idevicesinc.sweetblue.BleTransaction$Auth,com.idevicesinc.sweetblue.BleTransaction$Init,com.idevicesinc.sweetblue.BleDevice$StateListener)
+    3542:3542:public final boolean disconnect()
+    3555:3555:public final boolean disconnectWhenReady()
+    3572:3572:public final boolean disconnect_remote()
+    3577:3593:private boolean disconnect_private(com.idevicesinc.sweetblue.PE_TaskPriority,com.idevicesinc.sweetblue.BleDevice$ConnectionFailListener$Status)
+    3598:3600:private void clearForExplicitDisconnect()
+    3610:3612:public final boolean undiscover()
+    3622:3623:public final void clearSharedPreferences()
+    3676:3679:public final void startPoll(java.util.UUID,com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    3688:3689:public final void startPoll(java.util.UUID,com.idevicesinc.sweetblue.utils.Interval)
+    3696:3697:public final void startPoll(java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    3704:3705:public final void startPoll(java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.utils.Interval)
+    3713:3717:public final void startPoll(java.util.UUID[],com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    3726:3727:public final void startPoll(java.util.UUID[],com.idevicesinc.sweetblue.utils.Interval)
+    3735:3743:public final void startPoll(java.lang.Iterable,com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    3752:3753:public final void startPoll(java.lang.Iterable,com.idevicesinc.sweetblue.utils.Interval)
+    3761:3765:public final void startChangeTrackingPoll(java.util.UUID[],com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    3774:3775:public final void startChangeTrackingPoll(java.util.UUID[],com.idevicesinc.sweetblue.utils.Interval)
+    3783:3791:public final void startChangeTrackingPoll(java.lang.Iterable,com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    3800:3801:public final void startChangeTrackingPoll(java.lang.Iterable,com.idevicesinc.sweetblue.utils.Interval)
+    3813:3816:public final void startChangeTrackingPoll(java.util.UUID,com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    3823:3824:public final void startChangeTrackingPoll(java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    3835:3838:public final void stopPoll(java.util.UUID,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    3845:3846:public final void stopPoll(java.util.UUID)
+    3853:3856:public final void stopPoll(java.util.UUID,com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    3863:3866:public final void stopPoll(java.util.UUID,com.idevicesinc.sweetblue.utils.Interval)
+    3873:3874:public final void stopPoll(java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    3881:3882:public final void stopPoll(java.util.UUID,java.util.UUID)
+    3889:3890:public final void stopPoll(java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    3897:3898:public final void stopPoll(java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.utils.Interval)
+    3905:3909:public final void stopPoll(java.util.UUID[],com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    3916:3917:public final void stopPoll(java.util.UUID[],com.idevicesinc.sweetblue.utils.Interval)
+    3924:3925:public final void stopPoll(java.util.UUID[])
+    3932:3940:public final void stopPoll(java.lang.Iterable,com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    3947:3948:public final void stopPoll(java.lang.Iterable,com.idevicesinc.sweetblue.utils.Interval)
+    3955:3956:public final void stopPoll(java.lang.Iterable)
+    3970:3970:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent write(com.idevicesinc.sweetblue.BleDevice$WriteBuilder)
+    3983:3983:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent write(com.idevicesinc.sweetblue.BleDevice$WriteBuilder,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    3994:3994:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent write(com.idevicesinc.sweetblue.WriteBuilder)
+    4005:4005:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent write(com.idevicesinc.sweetblue.WriteBuilder,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    4016:4016:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent write(java.util.UUID,byte[])
+    4027:4027:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent write(java.util.UUID,com.idevicesinc.sweetblue.DescriptorFilter,byte[])
+    4051:4053:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent write(java.util.UUID,byte[],com.idevicesinc.sweetblue.DescriptorFilter,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    4061:4061:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent write(java.util.UUID,java.util.UUID,byte[])
+    4069:4069:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent write(java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.DescriptorFilter,byte[])
+    4077:4077:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent write(java.util.UUID,java.util.UUID,byte[],com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    4085:4085:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent write(java.util.UUID,java.util.UUID,byte[],com.idevicesinc.sweetblue.DescriptorFilter,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    4096:4096:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent write(java.util.UUID,com.idevicesinc.sweetblue.utils.FutureData)
+    4107:4109:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent write(java.util.UUID,com.idevicesinc.sweetblue.utils.FutureData,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    4120:4122:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent write(java.util.UUID,com.idevicesinc.sweetblue.utils.FutureData,com.idevicesinc.sweetblue.DescriptorFilter,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    4130:4130:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent write(java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.utils.FutureData)
+    4139:4139:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent write(java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.utils.FutureData,com.idevicesinc.sweetblue.DescriptorFilter)
+    4155:4155:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent write(java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.utils.FutureData,com.idevicesinc.sweetblue.DescriptorFilter,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    4166:4166:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent writeDescriptor(java.util.UUID,byte[])
+    4177:4179:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent writeDescriptor(java.util.UUID,byte[],com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    4187:4187:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent writeDescriptor(java.util.UUID,java.util.UUID,byte[])
+    4195:4197:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent writeDescriptor(java.util.UUID,java.util.UUID,byte[],com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    4205:4205:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent writeDescriptor(java.util.UUID,java.util.UUID,java.util.UUID,byte[],com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    4216:4216:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent writeDescriptor(java.util.UUID,com.idevicesinc.sweetblue.utils.FutureData)
+    4227:4229:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent writeDescriptor(java.util.UUID,com.idevicesinc.sweetblue.utils.FutureData,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    4237:4237:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent writeDescriptor(java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.utils.FutureData)
+    4245:4245:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent writeDescriptor(java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.utils.FutureData,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    4253:4253:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent writeDescriptor(java.util.UUID,java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.utils.FutureData,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    4265:4265:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent readDescriptor(java.util.UUID)
+    4276:4278:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent readDescriptor(java.util.UUID,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    4286:4286:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent readDescriptor(java.util.UUID,java.util.UUID)
+    4294:4294:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent readDescriptor(java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    4302:4302:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent readDescriptor(java.util.UUID,java.util.UUID,java.util.UUID)
+    4310:4310:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent readDescriptor(java.util.UUID,java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    4320:4320:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent readRssi()
+    4333:4344:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent readRssi(com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    4355:4355:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent setConnectionPriority(com.idevicesinc.sweetblue.BleConnectionPriority)
+    4371:4371:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent setConnectionPriority(com.idevicesinc.sweetblue.BleConnectionPriority,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    4431:4431:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent setMtuToDefault()
+    4444:4456:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent setMtuToDefault(com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    4468:4468:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent setMtu(int)
+    4487:4487:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent setMtu(int,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    4537:4538:public final void startRssiPoll(com.idevicesinc.sweetblue.utils.Interval)
+    4549:4554:public final void startRssiPoll(com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    4561:4571:public final void stopRssiPoll()
+    4584:4587:public final void clearAllData()
+    4598:4601:public final void clearHistoricalData()
+    4612:4613:public final void clearHistoricalData(long)
+    4624:4625:public final void clearHistoricalData(com.idevicesinc.sweetblue.utils.EpochTimeRange)
+    4636:4639:public final void clearHistoricalData(com.idevicesinc.sweetblue.utils.EpochTimeRange,long)
+    4651:4652:public final void clearHistoricalData(java.util.UUID)
+    4659:4665:public final varargs void clearHistoricalData(java.util.UUID[])
+    4677:4678:public final void clearHistoricalData(java.util.UUID,long)
+    4690:4691:public final void clearHistoricalData(java.util.UUID,com.idevicesinc.sweetblue.utils.EpochTimeRange)
+    4703:4706:public final void clearHistoricalData(java.util.UUID,com.idevicesinc.sweetblue.utils.EpochTimeRange,long)
+    4717:4718:public final void clearHistoricalData_memoryOnly()
+    4729:4730:public final void clearHistoricalData_memoryOnly(long)
+    4741:4742:public final void clearHistoricalData_memoryOnly(com.idevicesinc.sweetblue.utils.EpochTimeRange)
+    4753:4756:public final void clearHistoricalData_memoryOnly(com.idevicesinc.sweetblue.utils.EpochTimeRange,long)
+    4768:4769:public final void clearHistoricalData_memoryOnly(java.util.UUID)
+    4781:4782:public final void clearHistoricalData_memoryOnly(java.util.UUID,long)
+    4794:4795:public final void clearHistoricalData_memoryOnly(java.util.UUID,com.idevicesinc.sweetblue.utils.EpochTimeRange)
+    4807:4810:public final void clearHistoricalData_memoryOnly(java.util.UUID,com.idevicesinc.sweetblue.utils.EpochTimeRange,long)
+    4817:4818:public final void read(java.util.UUID[])
+    4825:4829:public final void read(java.util.UUID[],com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    4836:4837:public final void read(java.lang.Iterable)
+    4844:4852:public final void read(java.lang.Iterable,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    4862:4864:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent read(java.util.UUID)
+    4875:4877:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent read(java.util.UUID,com.idevicesinc.sweetblue.DescriptorFilter)
+    4887:4889:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent read(java.util.UUID,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    4900:4902:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent read(java.util.UUID,com.idevicesinc.sweetblue.DescriptorFilter,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    4910:4910:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent read(java.util.UUID,java.util.UUID)
+    4918:4918:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent read(java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.DescriptorFilter)
+    4926:4926:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent read(java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    4934:4934:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent read(java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.DescriptorFilter,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    4944:4944:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent readBatteryLevel(com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    4958:4958:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent readBatteryLevel(byte[],com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    4972:4987:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent readBatteryLevel(byte[],java.util.UUID,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    4998:5004:public final boolean isNotifyEnabled(java.util.UUID)
+    5014:5020:public final boolean isNotifyEnabling(java.util.UUID)
+    5028:5029:public final void enableNotify(java.util.UUID[])
+    5036:5037:public final void enableNotify(java.util.UUID[],com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    5044:5045:public final void enableNotify(java.util.UUID[],com.idevicesinc.sweetblue.utils.Interval)
+    5052:5058:public final void enableNotify(java.util.UUID[],com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    5065:5066:public final void enableNotify(java.lang.Iterable)
+    5073:5074:public final void enableNotify(java.lang.Iterable,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    5081:5082:public final void enableNotify(java.lang.Iterable,com.idevicesinc.sweetblue.utils.Interval)
+    5089:5097:public final void enableNotify(java.lang.Iterable,com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    5107:5107:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent enableNotify(java.util.UUID)
+    5119:5119:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent enableNotify(java.util.UUID,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    5130:5130:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent enableNotify(java.util.UUID,com.idevicesinc.sweetblue.utils.Interval)
+    5142:5142:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent enableNotify(java.util.UUID,com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    5150:5150:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent enableNotify(java.util.UUID,java.util.UUID)
+    5158:5158:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent enableNotify(java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    5166:5166:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent enableNotify(java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.utils.Interval)
+    5174:5240:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent enableNotify(java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.DescriptorFilter,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    5253:5255:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent disableNotify(java.util.UUID,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    5265:5267:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent disableNotify(java.util.UUID,com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    5278:5280:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent disableNotify(java.util.UUID)
+    5290:5292:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent disableNotify(java.util.UUID,com.idevicesinc.sweetblue.utils.Interval)
+    5300:5300:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent disableNotify(java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    5308:5308:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent disableNotify(java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    5316:5316:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent disableNotify(java.util.UUID,java.util.UUID)
+    5324:5324:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent disableNotify(java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.utils.Interval)
+    5332:5332:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent disableNotify(java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.DescriptorFilter,com.idevicesinc.sweetblue.utils.Interval)
+    5340:5341:public final void disableNotify(java.util.UUID[],com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    5348:5349:public final void disableNotify(java.util.UUID[])
+    5356:5357:public final void disableNotify(java.util.UUID[],com.idevicesinc.sweetblue.utils.Interval)
+    5364:5370:public final void disableNotify(java.util.UUID[],com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    5377:5378:public final void disableNotify(java.lang.Iterable)
+    5385:5386:public final void disableNotify(java.lang.Iterable,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    5393:5394:public final void disableNotify(java.lang.Iterable,com.idevicesinc.sweetblue.utils.Interval)
+    5401:5409:public final void disableNotify(java.lang.Iterable,com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    5431:5442:public final boolean performOta(com.idevicesinc.sweetblue.BleTransaction$Ota)
+    5655:5656:private void clearMtu()
+    6436:6437:private void stopPoll_private(java.util.UUID,java.util.UUID,java.lang.Double,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    6556:6583:private com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent disableNotify_private(java.util.UUID,java.util.UUID,java.lang.Double,com.idevicesinc.sweetblue.DescriptorFilter,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    6768:6768:public final com.idevicesinc.sweetblue.BleDevice getNext()
+    6776:6776:public final com.idevicesinc.sweetblue.BleDevice getNext(com.idevicesinc.sweetblue.BleDeviceState)
+    6784:6784:public final varargs com.idevicesinc.sweetblue.BleDevice getNext(java.lang.Object[])
+    6792:6792:public final com.idevicesinc.sweetblue.BleDevice getPrevious()
+    6800:6800:public final com.idevicesinc.sweetblue.BleDevice getPrevious(com.idevicesinc.sweetblue.BleDeviceState)
+    6808:6808:public final varargs com.idevicesinc.sweetblue.BleDevice getPrevious(java.lang.Object[])
+    6816:6816:public final int getIndex()
+com.idevicesinc.sweetblue.BleDevice$2
+com.idevicesinc.sweetblue.BleDevice$3
+com.idevicesinc.sweetblue.BleDevice$4
+com.idevicesinc.sweetblue.BleDevice$BondListener$BondEvent:
+    1722:1722:public final java.lang.String macAddress()
+    1779:1779:public final boolean wasSuccess()
+    1787:1787:public final boolean wasCancelled()
+com.idevicesinc.sweetblue.BleDevice$BondListener$Status:
+    1669:1669:public final boolean wasCancelled()
+com.idevicesinc.sweetblue.BleDevice$ConnectionFailListener$ConnectionFailEvent:
+    1278:1278:public final java.lang.String macAddress()
+    1306:1306:public final com.idevicesinc.sweetblue.BleDeviceState highestStateReached_latest()
+    1319:1319:public final com.idevicesinc.sweetblue.BleDeviceState highestStateReached_total()
+    1342:1342:public final com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent txnFailReason()
+    1356:1356:public final com.idevicesinc.sweetblue.BleDevice$ConnectionFailListener$ConnectionFailEvent[] history()
+    1425:1425:public final boolean shouldBeReportedToUser()
+com.idevicesinc.sweetblue.BleDevice$ConnectionFailListener$Status:
+    1216:1216:public final boolean shouldBeReportedToUser()
+com.idevicesinc.sweetblue.BleDevice$DefaultConnectionFailListener:
+    public static final int DEFAULT_CONNECTION_FAIL_RETRY_COUNT
+    public static final int DEFAULT_FAIL_COUNT_BEFORE_USING_AUTOCONNECT
+    1526:1526:public final int getRetryCount()
+com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent:
+    494:494:public final java.lang.String macAddress()
+    548:548:public final java.util.UUID descUuid()
+    768:768:public final android.bluetooth.BluetoothGattService service()
+    777:777:public final android.bluetooth.BluetoothGattCharacteristic characteristic()
+    786:786:public final android.bluetooth.BluetoothGattDescriptor descriptor()
+    802:802:public final boolean wasCancelled()
+    810:810:public final boolean isNotification()
+    826:826:public final boolean isWrite()
+    834:834:public final byte data_byte()
+    842:842:public final java.lang.String data_utf8()
+    851:851:public final java.lang.String data_string()
+    859:859:public final java.lang.String data_string(java.lang.String)
+    869:877:public final int data_int(boolean)
+    888:896:public final short data_short(boolean)
+    907:915:public final long data_long(boolean)
+com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$Status:
+    272:272:public final boolean wasCancelled()
+com.idevicesinc.sweetblue.BleDevice$StateListener$StateEvent:
+    1025:1025:public final java.lang.String macAddress()
+com.idevicesinc.sweetblue.BleDevice$WriteBuilder
+com.idevicesinc.sweetblue.BleDeviceConfig:
+    public static final double DEFAULT_MINIMUM_SCAN_TIME
+    public static final int DEFAULT_RUNNING_AVERAGE_N
+    public static final double DEFAULT_SCAN_KEEP_ALIVE
+    public static final double DEFAULT_RSSI_AUTO_POLL_RATE
+    public static final int DEFAULT_RSSI_MIN
+    public static final int DEFAULT_RSSI_MAX
+    public static final int DEFAULT_TX_POWER
+    public static final int DEFAULT_MAX_CONNECTION_FAIL_HISTORY_SIZE
+    public static final int DEFAULT_GATT_REFRESH_DELAY
+    681:684:public static com.idevicesinc.sweetblue.BleDeviceConfig newNulled()
+com.idevicesinc.sweetblue.BleDeviceConfig$BondFilter$CharacteristicEvent:
+    492:492:public java.lang.String macAddress()
+com.idevicesinc.sweetblue.BleDeviceConfig$BondFilter$Please:
+    557:557:public static com.idevicesinc.sweetblue.BleDeviceConfig$BondFilter$Please bond()
+    565:565:public static com.idevicesinc.sweetblue.BleDeviceConfig$BondFilter$Please bondIf(boolean)
+    573:573:public static com.idevicesinc.sweetblue.BleDeviceConfig$BondFilter$Please bondIf(boolean,com.idevicesinc.sweetblue.BleDevice$BondListener)
+    581:581:public static com.idevicesinc.sweetblue.BleDeviceConfig$BondFilter$Please bond(com.idevicesinc.sweetblue.BleDevice$BondListener)
+com.idevicesinc.sweetblue.BleDeviceIterator
+com.idevicesinc.sweetblue.BleDeviceState:
+    179:179:public boolean didExit(int,int)
+    184:184:public int or(com.idevicesinc.sweetblue.utils.BitwiseEnum)
+    189:189:public int or(int)
+com.idevicesinc.sweetblue.BleManager:
+    private static final long UPDATE_LOOP_WARNING_DELAY
+    com.idevicesinc.sweetblue.BleNode$HistoricalDataLoadListener m_historicalDataLoadListener
+    private com.idevicesinc.sweetblue.P_WrappingResetListener m_resetListeners
+    com.idevicesinc.sweetblue.BleServer$AdvertisingListener m_advertisingListener
+    public java.lang.Object appData
+    private static final java.lang.String LOCATION_PERMISSION_NAMESPACE
+    private static final java.lang.String LOCATION_PERMISSION_KEY
+    1005:1010:public final varargs boolean isAll(com.idevicesinc.sweetblue.BleManagerState[])
+    1030:1030:public final boolean isAny(int)
+    1040:1040:public final boolean isAll(int)
+    1050:1050:public final com.idevicesinc.sweetblue.utils.Interval getTimeInState(com.idevicesinc.sweetblue.BleManagerState)
+    1060:1060:public final com.idevicesinc.sweetblue.utils.Interval getTimeInNativeState(com.idevicesinc.sweetblue.BleManagerState)
+    1080:1080:public final boolean isAdvertisingSupportedByAndroidVersion()
+    1088:1094:public final boolean isAdvertisingSupportedByChipset()
+    1103:1103:public final boolean isAdvertisingSupported()
+    1112:1113:public final void turnOff()
+    1121:1121:public final android.bluetooth.BluetoothManager getNative()
+    1144:1145:public final void setListener_HistoricalDataLoad(com.idevicesinc.sweetblue.BleNode$HistoricalDataLoadListener)
+    1152:1153:public final void setListener_UhOh(com.idevicesinc.sweetblue.BleManager$UhOhListener)
+    1161:1162:public final void setListener_Assert(com.idevicesinc.sweetblue.BleManager$AssertListener)
+    1178:1178:public final com.idevicesinc.sweetblue.BleManager$DiscoveryListener getListener_Discovery()
+    1188:1205:public final void setListener_State(com.idevicesinc.sweetblue.BleManager$StateListener)
+    1212:1213:public final void setListener_State(com.idevicesinc.sweetblue.ManagerStateListener)
+    1226:1243:public final void setListener_DeviceState(com.idevicesinc.sweetblue.BleDevice$StateListener)
+    1254:1255:public final void setListener_DeviceState(com.idevicesinc.sweetblue.DeviceStateListener)
+    1268:1269:public final void setListener_ConnectionFail_Server(com.idevicesinc.sweetblue.BleServer$ConnectionFailListener)
+    1282:1283:public final void setListener_Incoming(com.idevicesinc.sweetblue.BleServer$IncomingListener)
+    1294:1295:public final void setListener_ServiceAdd(com.idevicesinc.sweetblue.BleServer$ServiceAddListener)
+    1306:1307:public final void setListener_ServerState(com.idevicesinc.sweetblue.BleServer$StateListener)
+    1318:1319:public final void setListener_Outgoing(com.idevicesinc.sweetblue.BleServer$OutgoingListener)
+    1332:1333:public final void setListener_ConnectionFail(com.idevicesinc.sweetblue.BleDevice$ConnectionFailListener)
+    1340:1341:public final void setListener_Bond(com.idevicesinc.sweetblue.BleDevice$BondListener)
+    1352:1369:public final void setListener_ReadWrite(com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    1378:1379:public final void setListener_Read_Write(com.idevicesinc.sweetblue.ReadWriteListener)
+    1383:1384:public final void setListener_Notification(com.idevicesinc.sweetblue.NotificationListener)
+    1391:1392:public final void setListener_NativeState(com.idevicesinc.sweetblue.BleManager$NativeStateListener)
+    1399:1400:public final void setListener_Advertising(com.idevicesinc.sweetblue.BleServer$AdvertisingListener)
+    1415:1416:public final void startPeriodicScan(com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.utils.Interval)
+    1425:1426:public final void startPeriodicScan(com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.BleManager$DiscoveryListener)
+    1435:1436:public final void startPeriodicScan(com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.BleManagerConfig$ScanFilter)
+    1445:1464:public final void startPeriodicScan(com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.BleManagerConfig$ScanFilter,com.idevicesinc.sweetblue.BleManager$DiscoveryListener)
+    1512:1512:public final boolean startScan(com.idevicesinc.sweetblue.BleManagerConfig$ScanFilter)
+    1536:1536:public final boolean startScan(com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.BleManagerConfig$ScanFilter)
+    1548:1548:public final boolean startScan(com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.BleManager$DiscoveryListener)
+    1560:1560:public final boolean startScan(com.idevicesinc.sweetblue.BleManagerConfig$ScanFilter,com.idevicesinc.sweetblue.BleManager$DiscoveryListener)
+    1602:1604:public final boolean startScan(com.idevicesinc.sweetblue.ScanOptions)
+    1787:1787:public final int getNativeStateMask()
+    1796:1807:public final void turnOn()
+    1811:1812:final void forceOn()
+    1816:1817:final void forceOff()
+    1834:1835:public final void reset()
+    1845:1891:public final void reset(com.idevicesinc.sweetblue.BleManager$ResetListener)
+    1900:1901:public final void unbondAll()
+    1910:1911:public final void disconnectAll()
+    1918:1919:public final void disconnectAll_remote()
+    1928:1929:public final void undiscoverAll()
+    1954:1962:public final void turnOnLocationWithIntent_forOsServices(android.app.Activity)
+    2031:2031:public final boolean isScanningReady()
+    2154:2156:final void onDestroy()
+    2165:2172:public final void shutdown()
+    2187:2189:public final void stopAllScanning()
+    2259:2259:public final boolean hasDevice(com.idevicesinc.sweetblue.BleDevice)
+    2268:2268:private final boolean hasDevice_private(com.idevicesinc.sweetblue.BleDevice)
+    2276:2286:public final com.idevicesinc.sweetblue.BleDevice getDevice(com.idevicesinc.sweetblue.BleDeviceState)
+    2294:2294:public final boolean hasDevice(com.idevicesinc.sweetblue.BleDeviceState)
+    2302:2302:public final com.idevicesinc.sweetblue.BleDevice getDevice()
+    2311:2321:public final varargs com.idevicesinc.sweetblue.BleDevice getDevice(java.lang.Object[])
+    2330:2330:public final varargs boolean hasDevice(java.lang.Object[])
+    2338:2338:public final com.idevicesinc.sweetblue.BleDevice getDevice(int)
+    2346:2346:public final boolean hasDevice(int)
+    2355:2356:public final void getDevices(com.idevicesinc.sweetblue.utils.ForEach_Void)
+    2364:2365:public final void getDevices(com.idevicesinc.sweetblue.utils.ForEach_Void,com.idevicesinc.sweetblue.BleDeviceState)
+    2373:2374:public final void getDevices(com.idevicesinc.sweetblue.utils.ForEach_Breakable)
+    2382:2383:public final void getDevices(com.idevicesinc.sweetblue.utils.ForEach_Breakable,com.idevicesinc.sweetblue.BleDeviceState)
+    2391:2391:public final java.util.Iterator getDevices_previouslyConnected()
+    2402:2414:public final java.util.Set getDevices_bonded()
+    2423:2423:public final com.idevicesinc.sweetblue.BleDeviceIterator getDevices()
+    2432:2432:public final com.idevicesinc.sweetblue.BleDeviceIterator getDevices_sorted()
+    2440:2440:public final java.util.List getDevices_List()
+    2448:2448:public final java.util.List getDevices_List_sorted()
+    2457:2457:public final int getDeviceCount()
+    2465:2465:public final int getDeviceCount(com.idevicesinc.sweetblue.BleDeviceState)
+    2474:2474:public final varargs int getDeviceCount(java.lang.Object[])
+    2484:2484:public final com.idevicesinc.sweetblue.BleDevice getDeviceAt(int)
+    2492:2502:public final int getDeviceIndex(com.idevicesinc.sweetblue.BleDevice)
+    2507:2507:public final com.idevicesinc.sweetblue.BleDevice getDevice_previous(com.idevicesinc.sweetblue.BleDevice)
+    2516:2516:public final com.idevicesinc.sweetblue.BleDevice getDevice_next(com.idevicesinc.sweetblue.BleDevice)
+    2526:2526:public final com.idevicesinc.sweetblue.BleDevice getDevice_previous(com.idevicesinc.sweetblue.BleDevice,com.idevicesinc.sweetblue.BleDeviceState)
+    2535:2535:public final com.idevicesinc.sweetblue.BleDevice getDevice_next(com.idevicesinc.sweetblue.BleDevice,com.idevicesinc.sweetblue.BleDeviceState)
+    2544:2544:public final varargs com.idevicesinc.sweetblue.BleDevice getDevice_previous(com.idevicesinc.sweetblue.BleDevice,java.lang.Object[])
+    2553:2553:public final varargs com.idevicesinc.sweetblue.BleDevice getDevice_next(com.idevicesinc.sweetblue.BleDevice,java.lang.Object[])
+    2562:2562:public final boolean hasDevices()
+    2570:2570:public final com.idevicesinc.sweetblue.BleDeviceIterator getDevices(com.idevicesinc.sweetblue.BleDeviceState)
+    2578:2578:public final java.util.List getDevices_List(com.idevicesinc.sweetblue.BleDeviceState)
+    2586:2586:public final java.util.List getDevices_List_sorted(com.idevicesinc.sweetblue.BleDeviceState)
+    2595:2595:public final varargs com.idevicesinc.sweetblue.BleDeviceIterator getDevices(java.lang.Object[])
+    2603:2603:public final varargs java.util.List getDevices_List(java.lang.Object[])
+    2611:2611:public final varargs java.util.List getDevices_List_sorted(java.lang.Object[])
+    2619:2619:public final com.idevicesinc.sweetblue.BleDeviceIterator getDevices(int)
+    2627:2627:public final java.util.List getDevices_List(int)
+    2635:2635:public final java.util.List getDevices_List_sorted(int)
+    2645:2646:public final void removeDeviceFromCache(com.idevicesinc.sweetblue.BleDevice)
+    2654:2662:public final com.idevicesinc.sweetblue.utils.HistoricalData newHistoricalData(byte[],com.idevicesinc.sweetblue.utils.EpochTime)
+    2673:2681:public final com.idevicesinc.sweetblue.utils.HistoricalData newHistoricalData(byte[],com.idevicesinc.sweetblue.utils.EpochTime,java.lang.String)
+    2690:2690:public final com.idevicesinc.sweetblue.BleServer getServer()
+    2698:2703:public final com.idevicesinc.sweetblue.BleServer getServer(com.idevicesinc.sweetblue.BleServer$IncomingListener)
+    2712:2712:public final com.idevicesinc.sweetblue.BleDevice newDevice(java.lang.String)
+    2720:2720:public final com.idevicesinc.sweetblue.BleDevice newDevice(java.lang.String,java.lang.String)
+    2729:2729:public final com.idevicesinc.sweetblue.BleDevice newDevice(java.lang.String,com.idevicesinc.sweetblue.BleDeviceConfig)
+    2743:2780:public final com.idevicesinc.sweetblue.BleDevice newDevice(java.lang.String,java.lang.String,com.idevicesinc.sweetblue.BleDeviceConfig)
+    2801:2813:public final boolean undiscover(com.idevicesinc.sweetblue.BleDevice)
+    2823:2824:public final void clearQueue()
+    2833:2834:public final void clearSharedPreferences(com.idevicesinc.sweetblue.BleDevice)
+    2846:2849:public final void clearSharedPreferences(java.lang.String)
+    2861:2862:public final void clearSharedPreferences()
+    2874:2874:final long getUpdateRate()
+    2880:2916:private void turnOff_private(boolean)
+    143:143:static synthetic com.idevicesinc.sweetblue.P_WrappingResetListener access$100(com.idevicesinc.sweetblue.BleManager)
+    143:143:static synthetic com.idevicesinc.sweetblue.P_WrappingResetListener access$102(com.idevicesinc.sweetblue.BleManager,com.idevicesinc.sweetblue.P_WrappingResetListener)
+com.idevicesinc.sweetblue.BleManager$4
+com.idevicesinc.sweetblue.BleManager$5
+com.idevicesinc.sweetblue.BleManager$6
+com.idevicesinc.sweetblue.BleManager$7
+com.idevicesinc.sweetblue.BleManager$8
+com.idevicesinc.sweetblue.BleManager$AssertListener$AssertEvent:
+    648:648:public com.idevicesinc.sweetblue.BleManager manager()
+com.idevicesinc.sweetblue.BleManager$DiscoveryListener$DiscoveryEvent:
+    194:194:public com.idevicesinc.sweetblue.BleManager manager()
+    205:205:public java.lang.String macAddress()
+com.idevicesinc.sweetblue.BleManager$ResetListener
+com.idevicesinc.sweetblue.BleManager$ResetListener$Progress
+com.idevicesinc.sweetblue.BleManager$ResetListener$ResetEvent
+com.idevicesinc.sweetblue.BleManager$StateListener:
+    public abstract void onEvent(com.idevicesinc.sweetblue.BleManager$StateListener$StateEvent)
+com.idevicesinc.sweetblue.BleManager$StateListener$StateEvent:
+    283:283:public com.idevicesinc.sweetblue.BleManager manager()
+com.idevicesinc.sweetblue.BleManager$UhOhListener:
+    public abstract void onEvent(com.idevicesinc.sweetblue.BleManager$UhOhListener$UhOhEvent)
+com.idevicesinc.sweetblue.BleManager$UhOhListener$UhOhEvent:
+    532:532:public com.idevicesinc.sweetblue.BleManager manager()
+com.idevicesinc.sweetblue.BleManager$UpdateRunnable:
+    3358:3358:public long getUpdateRate()
+    3334:3334:static synthetic boolean access$202(com.idevicesinc.sweetblue.BleManager$UpdateRunnable,boolean)
+com.idevicesinc.sweetblue.BleManagerConfig:
+    public static final double DEFAULT_AUTO_SCAN_PAUSE_TIME
+    public static final double DEFAULT_AUTO_SCAN_DELAY_AFTER_RESUME
+    public static final double DEFAULT_AUTO_UPDATE_RATE
+    public static final double DEFAULT_IDLE_UPDATE_RATE
+    public static final double DEFAULT_DELAY_BEFORE_IDLE
+    public static final double DEFAULT_UH_OH_CALLBACK_THROTTLE
+    public static final double DEFAULT_CLASSIC_SCAN_BOOST_TIME
+    public static final double DEFAULT_SCAN_REPORT_DELAY
+    public static final double DEFAULT_MANAGER_STATE_POLL_RATE
+    static final double MAX_CLASSIC_SCAN_TIME
+    831:831:public static com.idevicesinc.sweetblue.BleManagerConfig newWithLogging()
+com.idevicesinc.sweetblue.BleManagerConfig$DefaultScanFilter
+com.idevicesinc.sweetblue.BleManagerConfig$ScanFilter$Please:
+    688:690:public com.idevicesinc.sweetblue.BleManagerConfig$ScanFilter$Please thenStopScan()
+    698:700:public com.idevicesinc.sweetblue.BleManagerConfig$ScanFilter$Please thenStopPeriodicScan()
+    708:711:public com.idevicesinc.sweetblue.BleManagerConfig$ScanFilter$Please thenStopAllScanning()
+    729:729:public static com.idevicesinc.sweetblue.BleManagerConfig$ScanFilter$Please acknowledgeIf(boolean)
+    737:737:public static com.idevicesinc.sweetblue.BleManagerConfig$ScanFilter$Please acknowledgeIf(boolean,com.idevicesinc.sweetblue.BleDeviceConfig)
+    746:746:public static com.idevicesinc.sweetblue.BleManagerConfig$ScanFilter$Please acknowledge(com.idevicesinc.sweetblue.BleDeviceConfig)
+    762:762:public static com.idevicesinc.sweetblue.BleManagerConfig$ScanFilter$Please ignoreIf(boolean)
+com.idevicesinc.sweetblue.BleManagerConfig$ScanFilter$ScanEvent:
+    524:524:public android.bluetooth.BluetoothDevice nativeInstance()
+    537:537:public java.lang.String name_native()
+    556:556:public int rssi()
+    577:577:public com.idevicesinc.sweetblue.utils.State$ChangeIntent lastDisconnectIntent()
+    589:589:public android.util.SparseArray manufacturerCombinedData()
+com.idevicesinc.sweetblue.BleManagerState:
+    153:153:public boolean didExit(int,int)
+    158:158:public int or(com.idevicesinc.sweetblue.utils.BitwiseEnum)
+    163:163:public int or(int)
+com.idevicesinc.sweetblue.BleNode:
+    public java.lang.Object appData
+    510:510:public android.bluetooth.BluetoothGattDescriptor getNativeDescriptor(java.util.UUID)
+    519:519:public android.bluetooth.BluetoothGattDescriptor getNativeDescriptor_inChar(java.util.UUID,java.util.UUID)
+    528:528:public android.bluetooth.BluetoothGattDescriptor getNativeDescriptor_inService(java.util.UUID,java.util.UUID)
+    546:546:public android.bluetooth.BluetoothGattCharacteristic getNativeCharacteristic(java.util.UUID)
+    564:564:public android.bluetooth.BluetoothGattService getNativeService(java.util.UUID)
+    573:573:public java.util.Iterator getNativeServices()
+    582:582:public java.util.List getNativeServices_List()
+    590:591:public void getNativeServices(com.idevicesinc.sweetblue.utils.ForEach_Void)
+    598:599:public void getNativeServices(com.idevicesinc.sweetblue.utils.ForEach_Breakable)
+    606:607:public void getNativeCharacteristics(com.idevicesinc.sweetblue.utils.ForEach_Void)
+    614:615:public void getNativeCharacteristics(com.idevicesinc.sweetblue.utils.ForEach_Breakable)
+    622:623:public void getNativeCharacteristics(java.util.UUID,com.idevicesinc.sweetblue.utils.ForEach_Void)
+    630:631:public void getNativeCharacteristics(java.util.UUID,com.idevicesinc.sweetblue.utils.ForEach_Breakable)
+    638:638:public java.util.Iterator getNativeCharacteristics()
+    646:646:public java.util.List getNativeCharacteristics_List()
+    654:654:public java.util.Iterator getNativeCharacteristics(java.util.UUID)
+    670:670:public java.util.Iterator getNativeDescriptors()
+    678:678:public java.util.List getNativeDescriptors_List()
+    686:686:public java.util.Iterator getNativeDescriptors_inService(java.util.UUID)
+    694:694:public java.util.List getNativeDescriptors_inService_List(java.util.UUID)
+    702:702:public java.util.Iterator getNativeDescriptors_inChar(java.util.UUID)
+    710:710:public java.util.List getNativeDescriptors_inChar_List(java.util.UUID)
+    718:718:public java.util.Iterator getNativeDescriptors(java.util.UUID,java.util.UUID)
+    726:726:public java.util.List getNativeDescriptors_List(java.util.UUID,java.util.UUID)
+    734:735:public void getNativeDescriptors(com.idevicesinc.sweetblue.utils.ForEach_Void)
+    742:743:public void getNativeDescriptors(com.idevicesinc.sweetblue.utils.ForEach_Breakable)
+    750:751:public void getNativeDescriptors_inService(java.util.UUID,com.idevicesinc.sweetblue.utils.ForEach_Void)
+    758:759:public void getNativeDescriptors_inService(java.util.UUID,com.idevicesinc.sweetblue.utils.ForEach_Breakable)
+    766:767:public void getNativeDescriptors_inChar(java.util.UUID,com.idevicesinc.sweetblue.utils.ForEach_Void)
+    774:775:public void getNativeDescriptors_inChar(java.util.UUID,com.idevicesinc.sweetblue.utils.ForEach_Breakable)
+    782:783:public void getNativeDescriptors(java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.utils.ForEach_Void)
+    790:791:public void getNativeDescriptors(java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.utils.ForEach_Breakable)
+    834:834:public java.lang.Object appData()
+    867:875:public com.idevicesinc.sweetblue.BleNode$HistoricalDataQueryListener$HistoricalDataQueryEvent queryHistoricalData(java.lang.String)
+    885:901:public void queryHistoricalData(java.lang.String,com.idevicesinc.sweetblue.BleNode$HistoricalDataQueryListener)
+    910:912:public com.idevicesinc.sweetblue.utils.HistoricalDataQuery$Part_Select select()
+    public abstract java.lang.String getMacAddress()
+com.idevicesinc.sweetblue.BleNode$1
+com.idevicesinc.sweetblue.BleNode$ConnectionFailListener$ConnectionFailEvent:
+    94:94:public com.idevicesinc.sweetblue.utils.Interval attemptTime_latest()
+    100:100:public com.idevicesinc.sweetblue.utils.Interval attemptTime_total()
+com.idevicesinc.sweetblue.BleNode$ConnectionFailListener$Please:
+    static final int PE_Please_NULL
+    static final int PE_Please_RETRY
+    static final int PE_Please_RETRY_WITH_AUTOCONNECT_TRUE
+    static final int PE_Please_RETRY_WITH_AUTOCONNECT_FALSE
+    static final int PE_Please_DO_NOT_RETRY
+    180:180:public static com.idevicesinc.sweetblue.BleNode$ConnectionFailListener$Please retryIf(boolean)
+    196:196:public static com.idevicesinc.sweetblue.BleNode$ConnectionFailListener$Please doNotRetryIf(boolean)
+    224:224:public boolean isRetry()
+com.idevicesinc.sweetblue.BleNode$HistoricalDataLoadListener:
+    public abstract void onEvent(com.idevicesinc.sweetblue.BleNode$HistoricalDataLoadListener$HistoricalDataLoadEvent)
+com.idevicesinc.sweetblue.BleNode$HistoricalDataLoadListener$HistoricalDataLoadEvent
+com.idevicesinc.sweetblue.BleNode$HistoricalDataLoadListener$Status
+com.idevicesinc.sweetblue.BleNode$HistoricalDataQueryListener
+com.idevicesinc.sweetblue.BleNode$HistoricalDataQueryListener$HistoricalDataQueryEvent
+com.idevicesinc.sweetblue.BleNode$HistoricalDataQueryListener$Status
+com.idevicesinc.sweetblue.BleNodeConfig:
+    public static final int DEFAULT_MTU_SIZE
+    public static final int GATT_WRITE_MTU_OVERHEAD
+    public static final int GATT_READ_MTU_OVERHEAD
+    public static final int INVALID_TX_POWER
+    public static final int DEFAULT_MAX_CONNECTION_FAIL_HISTORY_SIZE
+    static final java.lang.String WRONG_THREAD_MESSAGE
+    1148:1151:public void nullOut()
+    1161:1164:public static com.idevicesinc.sweetblue.BleNodeConfig newNulled()
+    1232:1232:static int integerOrZero(java.lang.Integer)
+com.idevicesinc.sweetblue.BleNodeConfig$DefaultTaskTimeoutRequestFilter:
+    public static final double DEFAULT_TASK_TIMEOUT
+    public static final double DEFAULT_CRASH_RESOLVER_TIMEOUT
+com.idevicesinc.sweetblue.BleNodeConfig$HistoricalDataLogFilter:
+    public static final int PersistenceLevel_NONE
+    public static final int PersistenceLevel_MEMORY
+    public static final int PersistenceLevel_DISK
+    public static final int PersistenceLevel_BOTH
+com.idevicesinc.sweetblue.BleNodeConfig$HistoricalDataLogFilter$HistoricalDataLogEvent:
+    261:261:public com.idevicesinc.sweetblue.BleNode node()
+    267:267:public com.idevicesinc.sweetblue.BleDevice device()
+    272:272:public com.idevicesinc.sweetblue.BleServer server()
+    289:289:public com.idevicesinc.sweetblue.utils.EpochTime epochTime()
+    319:319:public boolean isFor(java.util.UUID)
+    327:327:public boolean isFor(java.util.UUID[])
+    344:344:public static boolean includesMemory(int)
+    349:349:public static boolean includesDisk(int)
+com.idevicesinc.sweetblue.BleNodeConfig$HistoricalDataLogFilter$Please:
+    406:408:public com.idevicesinc.sweetblue.BleNodeConfig$HistoricalDataLogFilter$Please andAmendData(byte[])
+    417:419:public com.idevicesinc.sweetblue.BleNodeConfig$HistoricalDataLogFilter$Please andAmendEpochTime(com.idevicesinc.sweetblue.utils.EpochTime)
+    443:443:public static com.idevicesinc.sweetblue.BleNodeConfig$HistoricalDataLogFilter$Please logToDisk()
+    459:459:public static com.idevicesinc.sweetblue.BleNodeConfig$HistoricalDataLogFilter$Please logToMemoryAndDisk()
+com.idevicesinc.sweetblue.BleNodeConfig$ReconnectFilter$Please:
+    922:922:public static com.idevicesinc.sweetblue.BleNodeConfig$ReconnectFilter$Please stopRetryingIf(boolean)
+com.idevicesinc.sweetblue.BleNodeConfig$ReconnectFilter$ReconnectEvent:
+    763:763:public com.idevicesinc.sweetblue.BleServer server()
+    768:768:public java.lang.String macAddress()
+    795:795:public com.idevicesinc.sweetblue.BleNode$ConnectionFailListener$ConnectionFailEvent connectionFailEvent()
+    805:807:BleNodeConfig$ReconnectFilter$ReconnectEvent(com.idevicesinc.sweetblue.BleNode,java.lang.String,int,com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.BleNode$ConnectionFailListener$ConnectionFailEvent,com.idevicesinc.sweetblue.BleNodeConfig$ReconnectFilter$Type)
+com.idevicesinc.sweetblue.BleNodeConfig$ReconnectFilter$Type:
+    739:739:public boolean isLongTerm()
+com.idevicesinc.sweetblue.BleNodeConfig$TaskTimeoutRequestFilter$Please:
+    631:631:public static com.idevicesinc.sweetblue.BleNodeConfig$TaskTimeoutRequestFilter$Please doNotUseTimeout()
+com.idevicesinc.sweetblue.BleNodeConfig$TaskTimeoutRequestFilter$TaskTimeoutRequestEvent:
+    533:533:public java.lang.String macAddress()
+    565:565:public java.util.UUID descUuid()
+com.idevicesinc.sweetblue.BleScanMode:
+    83:83:public int getNativeMode()
+com.idevicesinc.sweetblue.BleServer:
+    private com.idevicesinc.sweetblue.BleServer$AdvertisingListener m_advertisingListener
+    1403:1404:public void setConfig(com.idevicesinc.sweetblue.BleNodeConfig)
+    1424:1425:public void setListener_Incoming(com.idevicesinc.sweetblue.BleServer$IncomingListener)
+    1433:1434:public void setListener_ServiceAdd(com.idevicesinc.sweetblue.BleServer$ServiceAddListener)
+    1438:1439:public void setListener_Advertising(com.idevicesinc.sweetblue.BleServer$AdvertisingListener)
+    1444:1444:public com.idevicesinc.sweetblue.BleServer$AdvertisingListener getListener_Advertise()
+    1463:1464:public void setListener_Outgoing(com.idevicesinc.sweetblue.BleServer$OutgoingListener)
+    1479:1479:public com.idevicesinc.sweetblue.BleServer$OutgoingListener$OutgoingEvent sendIndication(java.lang.String,java.util.UUID,byte[])
+    1487:1487:public com.idevicesinc.sweetblue.BleServer$OutgoingListener$OutgoingEvent sendIndication(java.lang.String,java.util.UUID,byte[],com.idevicesinc.sweetblue.BleServer$OutgoingListener)
+    1495:1495:public com.idevicesinc.sweetblue.BleServer$OutgoingListener$OutgoingEvent sendIndication(java.lang.String,java.util.UUID,java.util.UUID,byte[])
+    1503:1503:public com.idevicesinc.sweetblue.BleServer$OutgoingListener$OutgoingEvent sendIndication(java.lang.String,java.util.UUID,java.util.UUID,byte[],com.idevicesinc.sweetblue.BleServer$OutgoingListener)
+    1511:1511:public com.idevicesinc.sweetblue.BleServer$OutgoingListener$OutgoingEvent sendIndication(java.lang.String,java.util.UUID,com.idevicesinc.sweetblue.utils.FutureData)
+    1519:1519:public com.idevicesinc.sweetblue.BleServer$OutgoingListener$OutgoingEvent sendIndication(java.lang.String,java.util.UUID,com.idevicesinc.sweetblue.utils.FutureData,com.idevicesinc.sweetblue.BleServer$OutgoingListener)
+    1527:1527:public com.idevicesinc.sweetblue.BleServer$OutgoingListener$OutgoingEvent sendIndication(java.lang.String,java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.utils.FutureData)
+    1535:1535:public com.idevicesinc.sweetblue.BleServer$OutgoingListener$OutgoingEvent sendIndication(java.lang.String,java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.utils.FutureData,com.idevicesinc.sweetblue.BleServer$OutgoingListener)
+    1543:1543:public com.idevicesinc.sweetblue.BleServer$OutgoingListener$OutgoingEvent sendNotification(java.lang.String,java.util.UUID,byte[])
+    1551:1551:public com.idevicesinc.sweetblue.BleServer$OutgoingListener$OutgoingEvent sendNotification(java.lang.String,java.util.UUID,byte[],com.idevicesinc.sweetblue.BleServer$OutgoingListener)
+    1559:1559:public com.idevicesinc.sweetblue.BleServer$OutgoingListener$OutgoingEvent sendNotification(java.lang.String,java.util.UUID,java.util.UUID,byte[])
+    1567:1567:public com.idevicesinc.sweetblue.BleServer$OutgoingListener$OutgoingEvent sendNotification(java.lang.String,java.util.UUID,java.util.UUID,byte[],com.idevicesinc.sweetblue.BleServer$OutgoingListener)
+    1575:1575:public com.idevicesinc.sweetblue.BleServer$OutgoingListener$OutgoingEvent sendNotification(java.lang.String,java.util.UUID,com.idevicesinc.sweetblue.utils.FutureData)
+    1583:1583:public com.idevicesinc.sweetblue.BleServer$OutgoingListener$OutgoingEvent sendNotification(java.lang.String,java.util.UUID,com.idevicesinc.sweetblue.utils.FutureData,com.idevicesinc.sweetblue.BleServer$OutgoingListener)
+    1591:1591:public com.idevicesinc.sweetblue.BleServer$OutgoingListener$OutgoingEvent sendNotification(java.lang.String,java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.utils.FutureData)
+    1602:1602:public com.idevicesinc.sweetblue.BleServer$OutgoingListener$OutgoingEvent sendNotification(java.lang.String,java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.utils.FutureData,com.idevicesinc.sweetblue.BleServer$OutgoingListener)
+    1607:1644:private com.idevicesinc.sweetblue.BleServer$OutgoingListener$OutgoingEvent sendNotification_private(java.lang.String,java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.utils.FutureData,com.idevicesinc.sweetblue.BleServer$OutgoingListener,boolean)
+    1653:1653:public boolean isAdvertisingSupportedByAndroidVersion()
+    1661:1661:public boolean isAdvertisingSupportedByChipset()
+    1669:1669:public boolean isAdvertisingSupported()
+    1677:1677:public boolean isAdvertising()
+    1685:1693:public boolean isAdvertising(java.util.UUID)
+    1701:1701:public com.idevicesinc.sweetblue.BleServer$AdvertisingListener$AdvertisingEvent startAdvertising(java.util.UUID)
+    1709:1709:public com.idevicesinc.sweetblue.BleServer$AdvertisingListener$AdvertisingEvent startAdvertising(java.util.UUID,com.idevicesinc.sweetblue.BleServer$AdvertisingListener)
+    1717:1717:public com.idevicesinc.sweetblue.BleServer$AdvertisingListener$AdvertisingEvent startAdvertising(java.util.UUID[])
+    1725:1725:public com.idevicesinc.sweetblue.BleServer$AdvertisingListener$AdvertisingEvent startAdvertising(java.util.UUID[],com.idevicesinc.sweetblue.BleServer$AdvertisingListener)
+    1733:1733:public com.idevicesinc.sweetblue.BleServer$AdvertisingListener$AdvertisingEvent startAdvertising(java.util.UUID,byte[])
+    1741:1741:public varargs com.idevicesinc.sweetblue.BleServer$AdvertisingListener$AdvertisingEvent startAdvertising(java.util.UUID,byte[],com.idevicesinc.sweetblue.BleAdvertisingPacket$Option[])
+    1749:1749:public varargs com.idevicesinc.sweetblue.BleServer$AdvertisingListener$AdvertisingEvent startAdvertising(java.util.UUID,com.idevicesinc.sweetblue.BleAdvertisingPacket$Option[])
+    1757:1757:public varargs com.idevicesinc.sweetblue.BleServer$AdvertisingListener$AdvertisingEvent startAdvertising(java.util.UUID[],com.idevicesinc.sweetblue.BleAdvertisingPacket$Option[])
+    1765:1765:public com.idevicesinc.sweetblue.BleServer$AdvertisingListener$AdvertisingEvent startAdvertising(java.util.UUID,com.idevicesinc.sweetblue.BleAdvertisingSettings,com.idevicesinc.sweetblue.BleServer$AdvertisingListener)
+    1773:1773:public com.idevicesinc.sweetblue.BleServer$AdvertisingListener$AdvertisingEvent startAdvertising(java.util.UUID[],com.idevicesinc.sweetblue.BleAdvertisingSettings,com.idevicesinc.sweetblue.BleServer$AdvertisingListener)
+    1783:1783:public com.idevicesinc.sweetblue.BleServer$AdvertisingListener$AdvertisingEvent startAdvertising(com.idevicesinc.sweetblue.BleAdvertisingPacket)
+    1793:1793:public com.idevicesinc.sweetblue.BleServer$AdvertisingListener$AdvertisingEvent startAdvertising(com.idevicesinc.sweetblue.BleAdvertisingPacket,com.idevicesinc.sweetblue.BleServer$AdvertisingListener)
+    1803:1843:public com.idevicesinc.sweetblue.BleServer$AdvertisingListener$AdvertisingEvent startAdvertising(com.idevicesinc.sweetblue.BleAdvertisingPacket,com.idevicesinc.sweetblue.BleAdvertisingSettings,com.idevicesinc.sweetblue.BleServer$AdvertisingListener)
+    1906:1906:public boolean isAll(java.lang.String,int)
+    1937:1937:public com.idevicesinc.sweetblue.BleServer$ConnectionFailListener$ConnectionFailEvent connect(java.lang.String)
+    1945:1945:public com.idevicesinc.sweetblue.BleServer$ConnectionFailListener$ConnectionFailEvent connect(java.lang.String,com.idevicesinc.sweetblue.BleServer$StateListener)
+    1953:1953:public com.idevicesinc.sweetblue.BleServer$ConnectionFailListener$ConnectionFailEvent connect(java.lang.String,com.idevicesinc.sweetblue.BleServer$ConnectionFailListener)
+    1962:1964:public com.idevicesinc.sweetblue.BleServer$ConnectionFailListener$ConnectionFailEvent connect(java.lang.String,com.idevicesinc.sweetblue.BleServer$StateListener,com.idevicesinc.sweetblue.BleServer$ConnectionFailListener)
+    2086:2087:public void disconnect()
+    2146:2159:void invokeAdvertiseListeners(com.idevicesinc.sweetblue.BleServer$AdvertisingListener$Status,com.idevicesinc.sweetblue.BleServer$AdvertisingListener)
+    2243:2243:public com.idevicesinc.sweetblue.BleServer$ServiceAddListener$ServiceAddEvent addService(com.idevicesinc.sweetblue.BleService)
+    2251:2251:public com.idevicesinc.sweetblue.BleServer$ServiceAddListener$ServiceAddEvent addService(com.idevicesinc.sweetblue.BleService,com.idevicesinc.sweetblue.BleServer$ServiceAddListener)
+    2261:2261:public android.bluetooth.BluetoothGattService removeService(java.util.UUID)
+    2269:2270:public void removeAllServices()
+    2278:2279:public void getClients(com.idevicesinc.sweetblue.utils.ForEach_Void)
+    2287:2288:public void getClients(com.idevicesinc.sweetblue.utils.ForEach_Void,com.idevicesinc.sweetblue.BleServerState)
+    2305:2306:public void getClients(com.idevicesinc.sweetblue.utils.ForEach_Breakable)
+    2314:2315:public void getClients(com.idevicesinc.sweetblue.utils.ForEach_Breakable,com.idevicesinc.sweetblue.BleServerState)
+    2323:2324:public varargs void getClients(com.idevicesinc.sweetblue.utils.ForEach_Breakable,com.idevicesinc.sweetblue.BleServerState[])
+    2331:2331:public java.util.Iterator getClients()
+    2339:2339:public java.util.Iterator getClients(com.idevicesinc.sweetblue.BleServerState)
+    2347:2347:public varargs java.util.Iterator getClients(com.idevicesinc.sweetblue.BleServerState[])
+    2355:2355:public java.util.List getClients_List()
+    2363:2363:public java.util.List getClients_List(com.idevicesinc.sweetblue.BleServerState)
+    2371:2371:public varargs java.util.List getClients_List(com.idevicesinc.sweetblue.BleServerState[])
+    2379:2379:public int getClientCount()
+    2387:2387:public int getClientCount(com.idevicesinc.sweetblue.BleServerState)
+    2395:2395:public varargs int getClientCount(com.idevicesinc.sweetblue.BleServerState[])
+    2403:2403:public boolean hasClients()
+    2411:2411:public boolean hasClient(com.idevicesinc.sweetblue.BleServerState)
+    2419:2419:public varargs boolean hasClient(com.idevicesinc.sweetblue.BleServerState[])
+    2440:2440:public java.lang.String getMacAddress()
+    48:48:static synthetic com.idevicesinc.sweetblue.BleServer$OutgoingListener access$000()
+com.idevicesinc.sweetblue.BleServer$AdvertisingListener
+com.idevicesinc.sweetblue.BleServer$AdvertisingListener$AdvertisingEvent
+com.idevicesinc.sweetblue.BleServer$AdvertisingListener$Status
+com.idevicesinc.sweetblue.BleServer$ConnectionFailListener$ConnectionFailEvent:
+    989:989:public android.bluetooth.BluetoothDevice nativeDevice()
+    1010:1010:public com.idevicesinc.sweetblue.BleServer$ConnectionFailListener$ConnectionFailEvent[] history()
+    1070:1070:public boolean shouldBeReportedToUser()
+com.idevicesinc.sweetblue.BleServer$ConnectionFailListener$Status:
+    944:944:boolean wasExplicit()
+    967:967:public boolean shouldBeReportedToUser()
+com.idevicesinc.sweetblue.BleServer$DefaultConnectionFailListener:
+    public static final int DEFAULT_CONNECTION_FAIL_RETRY_COUNT
+    public static final int DEFAULT_FAIL_COUNT_BEFORE_USING_AUTOCONNECT
+    1143:1143:public int getRetryCount()
+com.idevicesinc.sweetblue.BleServer$ExchangeListener$ExchangeEvent:
+    public static final int NON_APPLICABLE_REQUEST_ID
+    248:248:public boolean isFor(java.lang.String)
+    249:249:public boolean isFor(java.util.UUID)
+com.idevicesinc.sweetblue.BleServer$ExchangeListener$Type:
+    122:122:public boolean isNotificationOrIndication()
+    130:130:public boolean isWrite()
+com.idevicesinc.sweetblue.BleServer$IncomingListener$Please:
+    final int m_offset
+    316:323:private BleServer$IncomingListener$Please(com.idevicesinc.sweetblue.utils.FutureData,int,int,com.idevicesinc.sweetblue.BleServer$OutgoingListener)
+    326:333:private BleServer$IncomingListener$Please(com.idevicesinc.sweetblue.BleServer$OutgoingListener)
+    341:341:public static com.idevicesinc.sweetblue.BleServer$IncomingListener$Please doNotRespond()
+    353:353:public static com.idevicesinc.sweetblue.BleServer$IncomingListener$Please doNotRespond(com.idevicesinc.sweetblue.BleServer$OutgoingListener)
+    361:361:public static com.idevicesinc.sweetblue.BleServer$IncomingListener$Please respondWithSuccess(com.idevicesinc.sweetblue.utils.FutureData)
+    369:369:public static com.idevicesinc.sweetblue.BleServer$IncomingListener$Please respondWithSuccess(com.idevicesinc.sweetblue.utils.FutureData,com.idevicesinc.sweetblue.BleServer$OutgoingListener)
+    379:379:public static com.idevicesinc.sweetblue.BleServer$IncomingListener$Please respondWithSuccess(byte[])
+    389:389:public static com.idevicesinc.sweetblue.BleServer$IncomingListener$Please respondWithSuccess(byte[],com.idevicesinc.sweetblue.BleServer$OutgoingListener)
+    399:399:public static com.idevicesinc.sweetblue.BleServer$IncomingListener$Please respondWithSuccess()
+    409:409:public static com.idevicesinc.sweetblue.BleServer$IncomingListener$Please respondWithSuccess(com.idevicesinc.sweetblue.BleServer$OutgoingListener)
+    418:418:public static com.idevicesinc.sweetblue.BleServer$IncomingListener$Please respondWithError(int)
+    428:428:public static com.idevicesinc.sweetblue.BleServer$IncomingListener$Please respondWithError(int,com.idevicesinc.sweetblue.BleServer$OutgoingListener)
+com.idevicesinc.sweetblue.BleServer$OutgoingListener$OutgoingEvent:
+    464:464:public byte[] data_sent()
+    471:471:public int gattStatus_sent()
+    478:478:public int gattStatus_received()
+    488:488:public boolean solicited()
+    515:518:static com.idevicesinc.sweetblue.BleServer$OutgoingListener$OutgoingEvent EARLY_OUT__NOTIFICATION(com.idevicesinc.sweetblue.BleServer,android.bluetooth.BluetoothDevice,java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.utils.FutureData,com.idevicesinc.sweetblue.BleServer$OutgoingListener$Status)
+    525:525:static com.idevicesinc.sweetblue.BleServer$OutgoingListener$OutgoingEvent NULL__NOTIFICATION(com.idevicesinc.sweetblue.BleServer,android.bluetooth.BluetoothDevice,java.util.UUID,java.util.UUID)
+    533:533:public boolean wasSuccess()
+com.idevicesinc.sweetblue.BleServer$ServiceAddListener$ServiceAddEvent:
+    1281:1281:public java.util.UUID serviceUuid()
+    1302:1302:public boolean solicited()
+    1319:1319:public boolean wasSuccess()
+    1324:1324:static com.idevicesinc.sweetblue.BleServer$ServiceAddListener$ServiceAddEvent NULL(com.idevicesinc.sweetblue.BleServer,android.bluetooth.BluetoothGattService)
+    1329:1329:static com.idevicesinc.sweetblue.BleServer$ServiceAddListener$ServiceAddEvent EARLY_OUT(com.idevicesinc.sweetblue.BleServer,android.bluetooth.BluetoothGattService,com.idevicesinc.sweetblue.BleServer$ServiceAddListener$Status)
+com.idevicesinc.sweetblue.BleServer$ServiceAddListener$Status:
+    1250:1250:public boolean wasSuccess()
+com.idevicesinc.sweetblue.BleServer$StateListener$StateEvent:
+    818:818:public java.lang.String macAddress()
+com.idevicesinc.sweetblue.BleServerState:
+    64:64:public boolean didExit(int,int)
+    69:69:public int or(com.idevicesinc.sweetblue.utils.BitwiseEnum)
+    74:74:public int or(int)
+com.idevicesinc.sweetblue.BleService
+com.idevicesinc.sweetblue.BleServices
+com.idevicesinc.sweetblue.BleStatuses:
+    public static final int GATT_STATUS_NOT_APPLICABLE
+    public static final int BOND_FAIL_REASON_NOT_APPLICABLE
+    public static final int BOND_FAIL_REASON_NOT_AVAILABLE
+    public static final int ADVERTISE_SUCCESS
+    public static final int ADVERTISE_ANDROID_VERSION_NOT_SUPPORTED
+    public static final int BOND_SUCCESS
+    public static final int UNBOND_REASON_AUTH_FAILED
+    public static final int UNBOND_REASON_AUTH_REJECTED
+    public static final int UNBOND_REASON_AUTH_CANCELED
+    public static final int UNBOND_REASON_REMOTE_DEVICE_DOWN
+    public static final int UNBOND_REASON_DISCOVERY_IN_PROGRESS
+    public static final int UNBOND_REASON_AUTH_TIMEOUT
+    public static final int UNBOND_REASON_REPEATED_ATTEMPTS
+    public static final int UNBOND_REASON_REMOTE_AUTH_CANCELED
+    static final int STATE_OFF
+    static final int STATE_TURNING_ON
+    static final int STATE_ON
+    static final int STATE_TURNING_OFF
+    static final int STATE_BLE_TURNING_ON
+    static final int STATE_BLE_ON
+    static final int STATE_BLE_TURNING_OFF
+    public static final int GATT_SUCCESS
+    public static final int GATT_INVALID_HANDLE
+    public static final int GATT_READ_NOT_PERMIT
+    public static final int GATT_WRITE_NOT_PERMIT
+    public static final int GATT_INVALID_PDU
+    public static final int GATT_INSUF_AUTHENTICATION
+    public static final int GATT_REQ_NOT_SUPPORTED
+    public static final int GATT_INVALID_OFFSET
+    public static final int GATT_INSUF_AUTHORIZATION
+    public static final int GATT_PREPARE_Q_FULL
+    public static final int GATT_NOT_FOUND
+    public static final int GATT_NOT_LONG
+    public static final int GATT_INSUF_KEY_SIZE
+    public static final int GATT_INVALID_ATTR_LEN
+    public static final int GATT_ERR_UNLIKELY
+    public static final int GATT_INSUF_ENCRYPTION
+    public static final int GATT_UNSUPPORT_GRP_TYPE
+    public static final int GATT_INSUF_RESOURCE
+    public static final int GATT_ILLEGAL_PARAMETER
+    public static final int GATT_NO_RESOURCES
+    public static final int GATT_INTERNAL_ERROR
+    public static final int GATT_WRONG_STATE
+    public static final int GATT_DB_FULL
+    public static final int GATT_BUSY
+    public static final int GATT_ERROR
+    public static final int GATT_CMD_STARTED
+    public static final int GATT_PENDING
+    public static final int GATT_AUTH_FAIL
+    public static final int GATT_MORE
+    public static final int GATT_INVALID_CFG
+    public static final int GATT_SERVICE_STARTED
+    public static final int GATT_ENCRYPED_MITM
+    public static final int GATT_ENCRYPED_NO_MITM
+    public static final int GATT_NOT_ENCRYPTED
+    public static final int GATT_RSP_ERROR
+    public static final int GATT_REQ_MTU
+    public static final int GATT_RSP_MTU
+    public static final int GATT_REQ_FIND_INFO
+    public static final int GATT_RSP_FIND_INFO
+    public static final int GATT_REQ_FIND_TYPE_VALUE
+    public static final int GATT_RSP_FIND_TYPE_VALUE
+    public static final int GATT_REQ_READ_BY_TYPE
+    public static final int GATT_RSP_READ_BY_TYPE
+    public static final int GATT_REQ_READ
+    public static final int GATT_RSP_READ
+    public static final int GATT_REQ_READ_BLOB
+    public static final int GATT_RSP_READ_BLOB
+    public static final int GATT_REQ_READ_MULTI
+    public static final int GATT_RSP_READ_MULTI
+    public static final int GATT_REQ_READ_BY_GRP_TYPE
+    public static final int GATT_RSP_READ_BY_GRP_TYPE
+    public static final int GATT_REQ_WRITE
+    public static final int GATT_RSP_WRITE
+    public static final int GATT_CMD_WRITE
+    public static final int GATT_REQ_PREPARE_WRITE
+    public static final int GATT_RSP_PREPARE_WRITE
+    public static final int GATT_REQ_EXEC_WRITE
+    public static final int GATT_RSP_EXEC_WRITE
+    public static final int GATT_HANDLE_VALUE_NOTIF
+    public static final int GATT_HANDLE_VALUE_IND
+    public static final int GATT_HANDLE_VALUE_CONF
+    public static final int GATT_SIGN_CMD_WRITE
+    public static final int GATT_OP_CODE_MAX
+    public static final int GATT_CONN_UNKNOWN
+com.idevicesinc.sweetblue.BleTask:
+    139:153:public boolean isDeviceSpecific()
+    162:168:public boolean isManagerSpecific()
+    177:177:public boolean isServerSpecific()
+    185:185:public boolean usesCharUuid()
+com.idevicesinc.sweetblue.BleTask$1
+com.idevicesinc.sweetblue.BleTransaction:
+    90:91:void deinit()
+    226:226:protected double getTime()
+com.idevicesinc.sweetblue.BleTransaction$Auth:
+    33:33:public BleTransaction$Auth()
+com.idevicesinc.sweetblue.BleTransaction$Init:
+    28:28:public BleTransaction$Init()
+com.idevicesinc.sweetblue.BleTransaction$Ota:
+    38:38:public BleTransaction$Ota()
+com.idevicesinc.sweetblue.BleWriteTransaction
+com.idevicesinc.sweetblue.BleWriteTransaction$1
+com.idevicesinc.sweetblue.BleWriteTransaction$2
+com.idevicesinc.sweetblue.BleWriteTransaction$FailListener
+com.idevicesinc.sweetblue.BleWriteTransaction$FailListener$Please
+com.idevicesinc.sweetblue.BleWriteTransaction$FailListener$Please$Action
+com.idevicesinc.sweetblue.BleWriteTransaction$WriteQueueListener
+com.idevicesinc.sweetblue.BleWriteTransaction$WriteQueueListener$Please
+com.idevicesinc.sweetblue.BuildConfig
+com.idevicesinc.sweetblue.DescriptorFilter$DescriptorEvent:
+    52:52:public final byte[] value()
+    60:60:public final android.bluetooth.BluetoothGattService service()
+    68:68:public final android.bluetooth.BluetoothGattCharacteristic characteristc()
+    76:76:public final android.bluetooth.BluetoothGattDescriptor descriptor()
+com.idevicesinc.sweetblue.DescriptorFilter$Please:
+    91:93:private DescriptorFilter$Please(boolean)
+    106:106:public static com.idevicesinc.sweetblue.DescriptorFilter$Please accept()
+    115:115:public static com.idevicesinc.sweetblue.DescriptorFilter$Please acceptIf(boolean)
+    123:123:public static com.idevicesinc.sweetblue.DescriptorFilter$Please deny()
+    131:131:public static com.idevicesinc.sweetblue.DescriptorFilter$Please denyIf(boolean)
+com.idevicesinc.sweetblue.DeviceStateListener:
+    public abstract void onEvent(com.idevicesinc.sweetblue.BleDevice$StateListener$StateEvent)
+com.idevicesinc.sweetblue.ManagerStateListener:
+    public abstract void onEvent(com.idevicesinc.sweetblue.BleManager$StateListener$StateEvent)
+com.idevicesinc.sweetblue.NotificationListener$1
+com.idevicesinc.sweetblue.NotificationListener$NotificationEvent:
+    245:245:public java.lang.String macAddress()
+    263:263:public java.util.UUID serviceUuid()
+    306:306:public com.idevicesinc.sweetblue.utils.Interval time_ota()
+    319:319:public com.idevicesinc.sweetblue.utils.Interval time_total()
+    356:356:public boolean solicited()
+    379:379:static com.idevicesinc.sweetblue.NotificationListener$NotificationEvent NULL(com.idevicesinc.sweetblue.BleDevice)
+    387:387:public android.bluetooth.BluetoothGattService service()
+    395:395:public android.bluetooth.BluetoothGattCharacteristic characteristic()
+    403:403:public boolean wasSuccess()
+    411:411:public byte data_byte()
+    419:419:public java.lang.String data_utf8()
+    428:428:public java.lang.String data_string()
+    436:436:public java.lang.String data_string(java.lang.String)
+    446:454:public int data_int(boolean)
+    465:473:public short data_short(boolean)
+    484:492:public long data_long(boolean)
+com.idevicesinc.sweetblue.NotificationListener$Type:
+    190:190:public boolean isNativeNotification()
+    199:209:public com.idevicesinc.sweetblue.BleNodeConfig$HistoricalDataLogFilter$Source toHistoricalDataSource()
+com.idevicesinc.sweetblue.PA_Handler
+com.idevicesinc.sweetblue.PA_ServiceManager:
+    79:106:public android.bluetooth.BluetoothGattCharacteristic getCharacteristic(java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.DescriptorFilter)
+    130:151:private android.bluetooth.BluetoothGattCharacteristic getCharacteristic(android.bluetooth.BluetoothGattService,java.util.UUID,com.idevicesinc.sweetblue.DescriptorFilter)
+    156:158:private java.util.List getNativeServiceList_cloned()
+    170:172:private java.util.List getNativeCharacteristicList_cloned(android.bluetooth.BluetoothGattService)
+    184:186:private java.util.List getNativeDescriptorList_cloned(android.bluetooth.BluetoothGattCharacteristic)
+    221:256:private java.util.List collectAllNativeDescriptors(java.util.UUID,java.util.UUID,java.lang.Object)
+    261:261:public java.util.Iterator getServices()
+    266:266:public java.util.List getServices_List()
+    271:271:public java.util.Iterator getCharacteristics(java.util.UUID)
+    320:320:public java.util.Iterator getDescriptors(java.util.UUID,java.util.UUID)
+    325:325:public java.util.List getDescriptors_List(java.util.UUID,java.util.UUID)
+    364:365:public void getServices(java.lang.Object)
+    369:370:public void getCharacteristics(java.util.UUID,java.lang.Object)
+    374:375:public void getDescriptors(java.util.UUID,java.util.UUID,java.lang.Object)
+    379:385:protected static boolean equals(android.bluetooth.BluetoothGattService,android.bluetooth.BluetoothGattService)
+com.idevicesinc.sweetblue.PA_StateTracker:
+    167:177:long getTimeInState(int)
+com.idevicesinc.sweetblue.PA_Task:
+    private static final int ORDINAL_NOT_YET_ASSIGNED
+    397:397:public double getTotalTime(long)
+    436:436:public double getTimeout()
+com.idevicesinc.sweetblue.PI_UpdateLoop:
+    public abstract boolean isRunning()
+    public abstract void start(double)
+    public abstract void stop()
+    public abstract void forcePost(java.lang.Runnable)
+    public abstract android.os.Handler getHandler()
+    public abstract boolean postNeeded()
+    public abstract void postIfNeeded(java.lang.Runnable)
+com.idevicesinc.sweetblue.PI_UpdateLoop$DefaultUpdateLoopFactory
+com.idevicesinc.sweetblue.PI_UpdateLoop$IUpdateLoopFactory
+com.idevicesinc.sweetblue.PS_BtSnippets
+com.idevicesinc.sweetblue.PU_File
+com.idevicesinc.sweetblue.PU_HistoricalData:
+    17:17:PU_HistoricalData()
+com.idevicesinc.sweetblue.PU_TaskQueue:
+    11:11:PU_TaskQueue()
+com.idevicesinc.sweetblue.P_AndroidBleDevice:
+    private static final java.lang.String METHOD_NAME__REMOVE_BOND
+    private static final java.lang.String METHOD_NAME__CANCEL_BOND_PROCESS
+    33:33:public com.idevicesinc.sweetblue.BleDevice getBleDevice()
+com.idevicesinc.sweetblue.P_AndroidBluetoothManager:
+    86:86:public boolean isMultipleAdvertisementSupported()
+    130:130:public java.lang.String getAddress()
+    172:172:public android.bluetooth.BluetoothManager getNativeManager()
+com.idevicesinc.sweetblue.P_AndroidGatt:
+    private static final java.lang.String FIELD_NAME_AUTH_RETRY
+    45:45:public com.idevicesinc.sweetblue.BleDevice getBleDevice()
+    352:352:public boolean beginReliableWrite()
+    358:366:public void abortReliableWrite(android.bluetooth.BluetoothDevice)
+com.idevicesinc.sweetblue.P_BleDeviceLayerManager:
+    36:36:public final java.lang.String getAddress()
+    41:41:public final int getBondState()
+    46:46:public final int getNativeConnectionState()
+com.idevicesinc.sweetblue.P_BleManager_Listeners:
+    private static final java.lang.String BluetoothDevice_EXTRA_REASON
+    private static final java.lang.String BluetoothDevice_ACTION_DISAPPEARED
+    179:184:void onDestroy()
+com.idevicesinc.sweetblue.P_BleStateTracker:
+    20:21:public void setListener(com.idevicesinc.sweetblue.ManagerStateListener)
+com.idevicesinc.sweetblue.P_BluetoothCrashResolver:
+    private static final java.lang.String TAG
+    private static final boolean PREEMPTIVE_ACTION_ENABLED
+    private static final java.lang.String DISTINCT_BLUETOOTH_ADDRESSES_FILE
+    private static final long MIN_TIME_BETWEEN_STATE_SAVES_MILLIS
+    private static final long SUSPICIOUSLY_SHORT_BLUETOOTH_OFF_INTERVAL_MILLIS
+    private static final int BLUEDROID_MAX_BLUETOOTH_MAC_COUNT
+    private static final int BLUEDROID_POST_DISCOVERY_ESTIMATED_BLUETOOTH_MAC_COUNT
+    private static final int TIME_TO_LET_DISCOVERY_RUN_MILLIS
+    149:150:public void enableDebug()
+    155:156:public void disableDebug()
+    224:224:public long getLastBluetoothCrashDetectionTime()
+    227:227:public int getDetectedCrashCount()
+    230:230:public int getRecoveryAttemptCount()
+    233:233:public boolean isLastRecoverySucceeded()
+    242:243:public void setUpdateNotifier(com.idevicesinc.sweetblue.P_BluetoothCrashResolver$UpdateNotifier)
+com.idevicesinc.sweetblue.P_ClientManager:
+    60:61:public void getClients(com.idevicesinc.sweetblue.utils.ForEach_Breakable,int)
+    65:76:private void getClients_private(com.idevicesinc.sweetblue.utils.ForEach_Breakable,java.util.Iterator)
+    85:99:public java.util.List getClients_List(int)
+    105:105:public int getClientCount()
+    125:125:private java.util.List newEmptyList()
+com.idevicesinc.sweetblue.P_ConnectionFailManager:
+    85:87:int getRetryCount()
+com.idevicesinc.sweetblue.P_DefaultHandler
+com.idevicesinc.sweetblue.P_DeviceManager:
+    38:38:public java.util.ArrayList getList()
+    43:43:public java.util.ArrayList getList_sorted()
+    48:52:private java.util.ArrayList getList_private(boolean)
+    57:81:varargs void forEach(java.lang.Object,java.lang.Object[])
+    85:102:private boolean forEach_invoke(java.lang.Object,com.idevicesinc.sweetblue.BleDevice)
+    107:174:varargs com.idevicesinc.sweetblue.BleDevice getDevice_offset(com.idevicesinc.sweetblue.BleDevice,int,java.lang.Object[])
+    179:189:public com.idevicesinc.sweetblue.BleDevice getDevice(int)
+    194:209:public varargs java.util.List getDevices_List(boolean,java.lang.Object[])
+    214:229:public java.util.List getDevices_List(boolean,com.idevicesinc.sweetblue.BleDeviceState)
+    234:249:public java.util.List getDevices_List(boolean,int)
+    271:283:int getCount(java.lang.Object[])
+    288:300:int getCount(com.idevicesinc.sweetblue.BleDeviceState)
+    305:305:int getCount()
+    374:383:void unbondAll(com.idevicesinc.sweetblue.PE_TaskPriority,com.idevicesinc.sweetblue.BleDevice$BondListener$Status)
+    387:393:void undiscoverAll()
+    397:403:void disconnectAll()
+    407:413:void disconnectAll_remote()
+com.idevicesinc.sweetblue.P_DeviceStateTracker:
+    31:31:public com.idevicesinc.sweetblue.DeviceStateListener getListener()
+com.idevicesinc.sweetblue.P_DiskOptionsManager:
+    private static final int ACCESS_MODE
+    167:181:void clear()
+    185:188:void clearName(java.lang.String)
+    192:202:private void clearNamespace(java.lang.String,com.idevicesinc.sweetblue.P_DiskOptionsManager$E_Namespace)
+    206:212:void clear(java.lang.String)
+    216:228:java.util.Iterator getPreviouslyConnectedDevices()
+com.idevicesinc.sweetblue.P_GattLayer:
+    public abstract boolean beginReliableWrite()
+    public abstract void abortReliableWrite(android.bluetooth.BluetoothDevice)
+    public abstract com.idevicesinc.sweetblue.BleDevice getBleDevice()
+com.idevicesinc.sweetblue.P_HistoricalDataManager:
+    45:46:void setListener(com.idevicesinc.sweetblue.BleNode$HistoricalDataLoadListener)
+    56:61:private com.idevicesinc.sweetblue.backend.historical.Backend_HistoricalDataList getList_doNotCreate(java.util.UUID)
+    67:86:private com.idevicesinc.sweetblue.backend.historical.Backend_HistoricalDataList getList_onlyCreateIfDataIsOnDisk(java.util.UUID)
+    132:152:public void add_single(java.util.UUID,com.idevicesinc.sweetblue.utils.HistoricalData,com.idevicesinc.sweetblue.BleNodeConfig$HistoricalDataLogFilter$Source)
+    157:166:public void add_multiple(java.util.UUID,java.util.Iterator)
+    171:180:public void add_multiple(java.util.UUID,com.idevicesinc.sweetblue.utils.ForEach_Returning)
+    185:193:public com.idevicesinc.sweetblue.utils.HistoricalData getWithOffset(java.util.UUID,com.idevicesinc.sweetblue.utils.EpochTimeRange,int)
+    200:220:public void delete(java.util.UUID,com.idevicesinc.sweetblue.utils.EpochTimeRange,long,boolean)
+    225:228:public void clearEverything()
+    233:270:public void delete_all(com.idevicesinc.sweetblue.utils.EpochTimeRange,long,boolean)
+    275:283:public java.util.Iterator getIterator(java.util.UUID,com.idevicesinc.sweetblue.utils.EpochTimeRange)
+    290:298:public boolean doForEach(java.util.UUID,com.idevicesinc.sweetblue.utils.EpochTimeRange,java.lang.Object)
+    305:307:public int getCount(java.util.UUID,com.idevicesinc.sweetblue.utils.EpochTimeRange)
+    313:321:public com.idevicesinc.sweetblue.utils.HistoricalDataCursor getCursor(java.util.UUID,com.idevicesinc.sweetblue.utils.EpochTimeRange)
+    328:328:public boolean hasHistoricalData(java.util.UUID,com.idevicesinc.sweetblue.utils.EpochTimeRange)
+    334:366:public boolean hasHistoricalData(com.idevicesinc.sweetblue.utils.EpochTimeRange)
+    372:447:public void load(java.util.UUID,com.idevicesinc.sweetblue.BleNode$HistoricalDataLoadListener)
+    452:481:public boolean isLoaded(java.util.UUID)
+    488:519:public boolean isLoading(java.util.UUID)
+    526:531:void invokeListeners(java.util.UUID,com.idevicesinc.sweetblue.utils.EpochTimeRange,com.idevicesinc.sweetblue.BleNode$HistoricalDataLoadListener$Status,com.idevicesinc.sweetblue.BleNode$HistoricalDataLoadListener)
+    536:542:private com.idevicesinc.sweetblue.BleNode$HistoricalDataLoadListener$HistoricalDataLoadEvent invokeListener(java.util.UUID,com.idevicesinc.sweetblue.utils.EpochTimeRange,com.idevicesinc.sweetblue.BleNode$HistoricalDataLoadListener,com.idevicesinc.sweetblue.BleNode$HistoricalDataLoadListener$Status,com.idevicesinc.sweetblue.BleNode$HistoricalDataLoadListener$HistoricalDataLoadEvent)
+    548:548:public java.lang.String getTableName(java.util.UUID)
+    553:554:public static void post(java.lang.Runnable)
+    19:19:static synthetic com.idevicesinc.sweetblue.BleNode access$000(com.idevicesinc.sweetblue.P_HistoricalDataManager)
+com.idevicesinc.sweetblue.P_HistoricalDataManager$1
+com.idevicesinc.sweetblue.P_HistoricalDataManager$1$1
+com.idevicesinc.sweetblue.P_HistoricalDataManager_PreviousUuids:
+    private static final int ACCESS_MODE
+    private static final java.lang.String NAMESPACE
+    47:55:public void clearUuid(java.util.UUID)
+    59:64:public void clearAll()
+    68:73:public int getCount()
+    78:83:public java.util.Iterator getUuids()
+com.idevicesinc.sweetblue.P_Logger:
+    private static final java.lang.String MAIN
+    private static final java.lang.String UPDATE
+    73:76:public synchronized java.lang.String getDebugAction(java.lang.String)
+    187:188:public void d(java.lang.String,java.lang.String)
+    192:193:public void i(java.lang.String,java.lang.String)
+    197:198:public void v(java.lang.String,java.lang.String)
+    202:203:public void e(java.lang.String,java.lang.String)
+    223:224:public void v(java.lang.String)
+com.idevicesinc.sweetblue.P_NativeBleStateTracker:
+    20:21:public void setListener(com.idevicesinc.sweetblue.BleManager$NativeStateListener)
+com.idevicesinc.sweetblue.P_NativeDeviceLayer:
+    public abstract com.idevicesinc.sweetblue.BleDevice getBleDevice()
+com.idevicesinc.sweetblue.P_NativeDeviceLayer$1:
+    94:94:public com.idevicesinc.sweetblue.BleDevice getBleDevice()
+com.idevicesinc.sweetblue.P_NativeDeviceWrapper:
+    61:70:private com.idevicesinc.sweetblue.P_NativeDeviceLayer createLayer(java.lang.Class)
+    128:129:void clearName_override()
+    156:156:public java.lang.String getNormalizedName()
+    161:161:public java.lang.String getNativeName()
+    166:166:public java.lang.String getName_override()
+    176:176:public com.idevicesinc.sweetblue.P_NativeDeviceLayer getDeviceLayer()
+    210:211:void updateGattInstance(android.bluetooth.BluetoothGatt)
+com.idevicesinc.sweetblue.P_NativeManagerLayer:
+    public abstract boolean isMultipleAdvertisementSupported()
+    public abstract java.lang.String getAddress()
+    public abstract android.bluetooth.BluetoothManager getNativeManager()
+com.idevicesinc.sweetblue.P_PollManager:
+    static final int E_NotifyState__NOT_ENABLED
+    static final int E_NotifyState__ENABLING
+    static final int E_NotifyState__ENABLED
+    246:282:void startPoll(java.util.UUID,java.util.UUID,double,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener,boolean,boolean)
+    286:297:void stopPoll(java.util.UUID,java.util.UUID,java.lang.Double,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener,boolean)
+com.idevicesinc.sweetblue.P_PollManager$CallbackEntry:
+    108:128:public P_PollManager$CallbackEntry(com.idevicesinc.sweetblue.BleDevice,java.util.UUID,java.util.UUID,double,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener,boolean,boolean)
+    142:147:boolean isFor(java.util.UUID,java.util.UUID,java.lang.Double,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener,boolean)
+    94:94:static synthetic double access$302(com.idevicesinc.sweetblue.P_PollManager$CallbackEntry,double)
+com.idevicesinc.sweetblue.P_PollManager$PollingReadListener:
+    33:36:P_PollManager$PollingReadListener(com.idevicesinc.sweetblue.BleDevice$ReadWriteListener,com.idevicesinc.sweetblue.P_SweetHandler,boolean)
+    40:40:private boolean hasListener(com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    45:46:private void addListener(com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    50:51:private void init(com.idevicesinc.sweetblue.P_PollManager$CallbackEntry)
+    26:26:static synthetic void access$000(com.idevicesinc.sweetblue.P_PollManager$PollingReadListener,com.idevicesinc.sweetblue.P_PollManager$CallbackEntry)
+    26:26:static synthetic boolean access$100(com.idevicesinc.sweetblue.P_PollManager$PollingReadListener,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    26:26:static synthetic void access$500(com.idevicesinc.sweetblue.P_PollManager$PollingReadListener,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+com.idevicesinc.sweetblue.P_PollManager$TrackingWrappingReadListener:
+    63:68:P_PollManager$TrackingWrappingReadListener(com.idevicesinc.sweetblue.BleDevice$ReadWriteListener,com.idevicesinc.sweetblue.P_SweetHandler,boolean)
+com.idevicesinc.sweetblue.P_PostManager:
+    27:35:public final void post(java.lang.Runnable)
+    80:81:public final void postToMainDelayed(java.lang.Runnable,long)
+    85:93:public final void postDelayed(java.lang.Runnable,long)
+    97:105:public final void postCallbackDelayed(java.lang.Runnable,long)
+    114:115:public final void removeUICallbacks(java.lang.Runnable)
+    129:129:final com.idevicesinc.sweetblue.P_SweetHandler getUpdateHandler()
+    139:148:final void quit()
+com.idevicesinc.sweetblue.P_ReconnectManager:
+    private static final double NOT_RUNNING
+com.idevicesinc.sweetblue.P_ReliableWriteManager:
+    31:49:private com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent getGeneralEarlyOutEvent()
+    56:73:private com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent getNeverBeganEarlyOutEvent()
+    79:111:public com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent begin(com.idevicesinc.sweetblue.BleDevice$ReadWriteListener)
+    119:138:public com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent abort()
+    144:145:private void abortReliableWrite()
+    149:166:public com.idevicesinc.sweetblue.BleDevice$ReadWriteListener$ReadWriteEvent execute()
+com.idevicesinc.sweetblue.P_RssiPollManager:
+    private static final double DISABLE_TIMER
+    private static final double ENABLE_TIMER
+com.idevicesinc.sweetblue.P_ScanFilterManager:
+    28:29:void clear()
+com.idevicesinc.sweetblue.P_ScanManager:
+    static final int Mode_NULL
+    static final int Mode_BLE
+    static final int Mode_CLASSIC
+    static final int Mode_BLE_POST_LOLLIPOP
+    127:128:public final void stopScan()
+    181:182:final void pauseScan()
+    231:231:final int getCurrentMode()
+    236:263:private void stopScan_private(boolean)
+    547:547:final com.idevicesinc.sweetblue.BleScanApi getCurrentApi()
+    552:552:final com.idevicesinc.sweetblue.BleScanPower getCurrentPower()
+    655:655:final boolean isPreLollipopScan()
+com.idevicesinc.sweetblue.P_ScanManager$PostLollipopScanCallback:
+    public static final int SCAN_FAILED_ALREADY_STARTED
+com.idevicesinc.sweetblue.P_ServerConnectionFailManager:
+    57:57:public com.idevicesinc.sweetblue.BleServer$ConnectionFailListener getListener()
+com.idevicesinc.sweetblue.P_ServerServiceManager:
+    25:26:public void setListener(com.idevicesinc.sweetblue.BleServer$ServiceAddListener)
+    100:129:private boolean alreadyAddingOrAdded(android.bluetooth.BluetoothGattService)
+    135:137:public com.idevicesinc.sweetblue.BleServer$ServiceAddListener$ServiceAddEvent addService(com.idevicesinc.sweetblue.BleService,com.idevicesinc.sweetblue.BleServer$ServiceAddListener)
+    142:171:public com.idevicesinc.sweetblue.BleServer$ServiceAddListener$ServiceAddEvent addService_native(android.bluetooth.BluetoothGattService,com.idevicesinc.sweetblue.BleServer$ServiceAddListener)
+    197:238:public android.bluetooth.BluetoothGattService remove(java.util.UUID)
+com.idevicesinc.sweetblue.P_ServerServiceManager$1
+com.idevicesinc.sweetblue.P_ServerServiceManager$3
+com.idevicesinc.sweetblue.P_StringHandler:
+    private static final java.lang.String BASE
+    9:9:public P_StringHandler()
+com.idevicesinc.sweetblue.P_SweetBlueThread:
+    64:71:public void quit()
+com.idevicesinc.sweetblue.P_SweetBlueThread$SweetRunnable:
+    103:103:public boolean canceled()
+    113:113:public boolean ready()
+com.idevicesinc.sweetblue.P_TaskQueue:
+    185:191:void addNow(com.idevicesinc.sweetblue.PA_Task)
+    223:223:double getTime()
+    421:421:public boolean isCurrent(java.lang.Class,com.idevicesinc.sweetblue.BleServer)
+    439:447:private int positionInQueue(java.lang.Class,com.idevicesinc.sweetblue.BleManager,com.idevicesinc.sweetblue.BleDevice,com.idevicesinc.sweetblue.BleServer)
+    462:462:public int positionInQueue(java.lang.Class,com.idevicesinc.sweetblue.BleManager)
+    467:467:public int positionInQueue(java.lang.Class,com.idevicesinc.sweetblue.BleDevice)
+    472:472:public int positionInQueue(java.lang.Class,com.idevicesinc.sweetblue.BleServer)
+    487:487:public boolean isInQueue(java.lang.Class,com.idevicesinc.sweetblue.BleServer)
+    596:603:public void clearQueueOf(java.lang.Class,com.idevicesinc.sweetblue.BleServer)
+    607:611:public void clearQueueOfAll()
+com.idevicesinc.sweetblue.P_Task_AddService:
+    13:21:public P_Task_AddService(com.idevicesinc.sweetblue.BleServer,android.bluetooth.BluetoothGattService,com.idevicesinc.sweetblue.BleServer$ServiceAddListener)
+com.idevicesinc.sweetblue.P_Task_Advertise:
+    private final com.idevicesinc.sweetblue.BleServer$AdvertisingListener m_listener
+    23:52:public P_Task_Advertise(com.idevicesinc.sweetblue.BleServer,com.idevicesinc.sweetblue.BleAdvertisingPacket,com.idevicesinc.sweetblue.BleServer$AdvertisingListener,com.idevicesinc.sweetblue.BleAdvertisingSettings$BleAdvertisingMode,com.idevicesinc.sweetblue.BleAdvertisingSettings$BleTransmissionPower,com.idevicesinc.sweetblue.utils.Interval)
+    23:62:public P_Task_Advertise(com.idevicesinc.sweetblue.BleServer,com.idevicesinc.sweetblue.BleAdvertisingPacket,com.idevicesinc.sweetblue.BleAdvertisingSettings,com.idevicesinc.sweetblue.BleServer$AdvertisingListener)
+    66:66:com.idevicesinc.sweetblue.BleAdvertisingPacket getPacket()
+    15:15:static synthetic com.idevicesinc.sweetblue.BleServer$AdvertisingListener access$000(com.idevicesinc.sweetblue.P_Task_Advertise)
+com.idevicesinc.sweetblue.P_Task_Advertise$1
+com.idevicesinc.sweetblue.P_Task_BatteryLevel:
+    private java.util.List batteryChars
+    23:35:P_Task_BatteryLevel(com.idevicesinc.sweetblue.BleDevice,byte[],java.util.UUID,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener,boolean,com.idevicesinc.sweetblue.BleTransaction,com.idevicesinc.sweetblue.PE_TaskPriority)
+com.idevicesinc.sweetblue.P_Task_BatteryLevel$1
+com.idevicesinc.sweetblue.P_Task_Bond:
+    private static final java.lang.String METHOD_NAME__CREATE_BOND
+com.idevicesinc.sweetblue.P_Task_CrashResolver:
+    8:17:public P_Task_CrashResolver(com.idevicesinc.sweetblue.BleManager,com.idevicesinc.sweetblue.P_BluetoothCrashResolver,boolean)
+com.idevicesinc.sweetblue.P_Task_ExecuteReliableWrite:
+    14:18:public P_Task_ExecuteReliableWrite(com.idevicesinc.sweetblue.BleDevice,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener,com.idevicesinc.sweetblue.PE_TaskPriority)
+com.idevicesinc.sweetblue.P_Task_SendNotification:
+    private final com.idevicesinc.sweetblue.BleServer m_server
+    25:38:public P_Task_SendNotification(com.idevicesinc.sweetblue.BleServer,android.bluetooth.BluetoothDevice,java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.utils.FutureData,boolean,com.idevicesinc.sweetblue.BleServer$OutgoingListener)
+com.idevicesinc.sweetblue.P_Task_ToggleNotify:
+    24:40:public P_Task_ToggleNotify(com.idevicesinc.sweetblue.BleDevice,java.util.UUID,java.util.UUID,com.idevicesinc.sweetblue.DescriptorFilter,boolean,com.idevicesinc.sweetblue.BleTransaction,com.idevicesinc.sweetblue.BleDevice$ReadWriteListener,com.idevicesinc.sweetblue.PE_TaskPriority)
+com.idevicesinc.sweetblue.P_Task_Unbond:
+    20:21:public P_Task_Unbond(com.idevicesinc.sweetblue.BleDevice,com.idevicesinc.sweetblue.PA_Task$I_StateListener)
+com.idevicesinc.sweetblue.P_Task_Write:
+    public static final int MTU_LIMIT
+com.idevicesinc.sweetblue.P_TransactionManager:
+    298:304:void startOta(com.idevicesinc.sweetblue.BleTransaction$Ota)
+com.idevicesinc.sweetblue.P_UhOhThrottler:
+    31:32:public synchronized void setListener(com.idevicesinc.sweetblue.BleManager$UhOhListener)
+com.idevicesinc.sweetblue.P_WakeLockManager:
+    private static final java.lang.String WAKE_LOCK_TAG
+com.idevicesinc.sweetblue.P_WrappingResetListener
+com.idevicesinc.sweetblue.P_WrappingResetListener$1
+com.idevicesinc.sweetblue.R
+com.idevicesinc.sweetblue.R$attr
+com.idevicesinc.sweetblue.R$string
+com.idevicesinc.sweetblue.ScanOptions:
+    38:41:public final com.idevicesinc.sweetblue.ScanOptions scanPeriodically(com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.utils.Interval)
+    70:71:public final com.idevicesinc.sweetblue.ScanOptions asHighPriority(boolean)
+com.idevicesinc.sweetblue.WriteBuilder
+com.idevicesinc.sweetblue.annotations.Advanced
+com.idevicesinc.sweetblue.annotations.Alpha
+com.idevicesinc.sweetblue.annotations.Extendable
+com.idevicesinc.sweetblue.annotations.Immutable
+com.idevicesinc.sweetblue.annotations.Lambda
+com.idevicesinc.sweetblue.annotations.Nullable
+com.idevicesinc.sweetblue.annotations.Nullable$Prevalence
+com.idevicesinc.sweetblue.annotations.UnitTest
+com.idevicesinc.sweetblue.backend.Backend_Modules:
+    11:11:public Backend_Modules()
+com.idevicesinc.sweetblue.backend.historical.Backend_HistoricalDataList:
+    public static final int LOAD_STATE__NOT_LOADED
+    public static final int LOAD_STATE__LOADING
+    public static final int LOAD_STATE__LOADED
+    public abstract void add_multiple(java.util.Iterator,int,long)
+    public abstract void add_multiple(com.idevicesinc.sweetblue.utils.ForEach_Returning,int,long)
+    public abstract com.idevicesinc.sweetblue.utils.HistoricalData get(com.idevicesinc.sweetblue.utils.EpochTimeRange,int)
+    public abstract java.util.Iterator getIterator(com.idevicesinc.sweetblue.utils.EpochTimeRange)
+    public abstract boolean doForEach(com.idevicesinc.sweetblue.utils.EpochTimeRange,java.lang.Object)
+    public abstract void delete_fromMemoryOnly(com.idevicesinc.sweetblue.utils.EpochTimeRange,long)
+    public abstract void delete_fromMemoryOnlyForNowButDatabaseSoon(com.idevicesinc.sweetblue.utils.EpochTimeRange,long)
+    public abstract java.lang.String getMacAddress()
+    public abstract void load(com.idevicesinc.sweetblue.backend.historical.Backend_HistoricalDataList$AsyncLoadCallback)
+    public abstract int getLoadState()
+    public abstract com.idevicesinc.sweetblue.utils.HistoricalDataCursor getCursor(com.idevicesinc.sweetblue.utils.EpochTimeRange)
+    public abstract com.idevicesinc.sweetblue.utils.EpochTimeRange getRange()
+com.idevicesinc.sweetblue.backend.historical.Backend_HistoricalDataList$AsyncLoadCallback
+com.idevicesinc.sweetblue.backend.historical.Backend_HistoricalDataList_Default:
+    50:55:private void printWarning_read()
+    97:101:public void add_multiple(java.util.Iterator,int,long)
+    105:117:public void add_multiple(com.idevicesinc.sweetblue.utils.ForEach_Returning,int,long)
+    133:148:public com.idevicesinc.sweetblue.utils.HistoricalData get(com.idevicesinc.sweetblue.utils.EpochTimeRange,int)
+    154:166:public java.util.Iterator getIterator(com.idevicesinc.sweetblue.utils.EpochTimeRange)
+    172:193:public boolean doForEach(com.idevicesinc.sweetblue.utils.EpochTimeRange,java.lang.Object)
+    212:215:public void delete_fromMemoryOnlyForNowButDatabaseSoon(com.idevicesinc.sweetblue.utils.EpochTimeRange,long)
+    226:226:public java.lang.String getMacAddress()
+    231:232:public void load(com.idevicesinc.sweetblue.backend.historical.Backend_HistoricalDataList$AsyncLoadCallback)
+    236:236:public int getLoadState()
+    241:252:public com.idevicesinc.sweetblue.utils.HistoricalDataCursor getCursor(com.idevicesinc.sweetblue.utils.EpochTimeRange)
+    258:264:public com.idevicesinc.sweetblue.utils.EpochTimeRange getRange()
+    20:20:static synthetic com.idevicesinc.sweetblue.utils.HistoricalData access$002(com.idevicesinc.sweetblue.backend.historical.Backend_HistoricalDataList_Default,com.idevicesinc.sweetblue.utils.HistoricalData)
+com.idevicesinc.sweetblue.backend.historical.Backend_HistoricalDataList_Default$1
+com.idevicesinc.sweetblue.backend.historical.Backend_HistoricalDatabase:
+    public abstract void add_single(java.lang.String,java.util.UUID,com.idevicesinc.sweetblue.utils.HistoricalData,long)
+    public abstract void add_multiple_start()
+    public abstract void add_multiple_next(java.lang.String,java.util.UUID,com.idevicesinc.sweetblue.utils.HistoricalData)
+    public abstract void add_multiple_end()
+    public abstract void delete_singleUuid_all(java.lang.String,java.util.UUID)
+    public abstract void delete_singleUuid_inRange(java.lang.String,java.util.UUID,com.idevicesinc.sweetblue.utils.EpochTimeRange,long)
+    public abstract void delete_singleUuid_singleDate(java.lang.String,java.util.UUID,long)
+    public abstract void delete_multipleUuids(java.lang.String[],java.util.UUID[],com.idevicesinc.sweetblue.utils.EpochTimeRange,long)
+    public abstract void load(java.lang.String,java.util.UUID,com.idevicesinc.sweetblue.utils.EpochTimeRange,com.idevicesinc.sweetblue.utils.ForEach_Void)
+    public abstract int getCount(java.lang.String,java.util.UUID,com.idevicesinc.sweetblue.utils.EpochTimeRange)
+    public abstract com.idevicesinc.sweetblue.utils.HistoricalDataCursor getCursor(java.lang.String,java.util.UUID,com.idevicesinc.sweetblue.utils.EpochTimeRange)
+    public abstract android.database.Cursor query(java.lang.String)
+    public abstract java.lang.String getTableName(java.lang.String,java.util.UUID)
+com.idevicesinc.sweetblue.backend.historical.Backend_HistoricalDatabase_Default:
+    50:51:public void add_single(java.lang.String,java.util.UUID,com.idevicesinc.sweetblue.utils.HistoricalData,long)
+    55:56:public void add_multiple_start()
+    60:61:public void add_multiple_next(java.lang.String,java.util.UUID,com.idevicesinc.sweetblue.utils.HistoricalData)
+    65:66:public void add_multiple_end()
+    70:71:public void delete_singleUuid_all(java.lang.String,java.util.UUID)
+    75:76:public void delete_singleUuid_inRange(java.lang.String,java.util.UUID,com.idevicesinc.sweetblue.utils.EpochTimeRange,long)
+    80:81:public void delete_singleUuid_singleDate(java.lang.String,java.util.UUID,long)
+    85:86:public void delete_multipleUuids(java.lang.String[],java.util.UUID[],com.idevicesinc.sweetblue.utils.EpochTimeRange,long)
+    97:98:public void load(java.lang.String,java.util.UUID,com.idevicesinc.sweetblue.utils.EpochTimeRange,com.idevicesinc.sweetblue.utils.ForEach_Void)
+    102:104:public int getCount(java.lang.String,java.util.UUID,com.idevicesinc.sweetblue.utils.EpochTimeRange)
+    109:111:public com.idevicesinc.sweetblue.utils.HistoricalDataCursor getCursor(java.lang.String,java.util.UUID,com.idevicesinc.sweetblue.utils.EpochTimeRange)
+    116:118:public android.database.Cursor query(java.lang.String)
+    123:125:public java.lang.String getTableName(java.lang.String,java.util.UUID)
+com.idevicesinc.sweetblue.backend.historical.P_HistoricalDataCursor_Empty:
+    15:15:public int getCount()
+    20:20:public int getPosition()
+    25:25:public boolean move(int)
+    30:30:public boolean moveToPosition(int)
+    35:35:public boolean moveToFirst()
+    40:40:public boolean moveToLast()
+    45:45:public boolean moveToNext()
+    50:50:public boolean moveToPrevious()
+    55:55:public boolean isFirst()
+    60:60:public boolean isLast()
+    65:65:public boolean isBeforeFirst()
+    70:70:public boolean isAfterLast()
+    76:76:public void close()
+    80:80:public boolean isClosed()
+    85:85:public long getEpochTime()
+    90:90:public byte[] getBlob()
+    95:95:public com.idevicesinc.sweetblue.utils.HistoricalData getHistoricalData()
+com.idevicesinc.sweetblue.backend.historical.P_HistoricalDataCursor_List
+com.idevicesinc.sweetblue.backend.historical.P_HistoricalDataIndexCache
+com.idevicesinc.sweetblue.compat.K_Util:
+    16:16:private K_Util()
+    23:24:public static void abortReliableWrite(com.idevicesinc.sweetblue.BleDevice)
+    28:29:public static void abortReliableWrite(android.bluetooth.BluetoothGatt)
+    35:35:public static boolean createBond(com.idevicesinc.sweetblue.BleDevice)
+com.idevicesinc.sweetblue.compat.L_Util:
+    23:23:private L_Util()
+    96:96:static android.bluetooth.le.ScanCallback getNativeCallback()
+    103:103:public static boolean requestMtu(com.idevicesinc.sweetblue.BleDevice,int)
+    113:113:public static boolean isAdvertisingSupportedByChipset(com.idevicesinc.sweetblue.BleManager)
+    117:117:public static boolean isAdvertisingSupportedByChipset(android.bluetooth.BluetoothAdapter)
+    128:129:public static void stopNativeScan(com.idevicesinc.sweetblue.BleManager)
+    140:140:public static boolean requestConnectionPriority(com.idevicesinc.sweetblue.BleDevice,int)
+    151:154:public static void startNativeScan(com.idevicesinc.sweetblue.BleManager,int,com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.compat.L_Util$ScanCallback)
+    159:171:static android.bluetooth.le.ScanSettings$Builder buildSettings(com.idevicesinc.sweetblue.BleManager,int,com.idevicesinc.sweetblue.utils.Interval)
+    177:179:static void startScan(com.idevicesinc.sweetblue.BleManager,android.bluetooth.le.ScanSettings,com.idevicesinc.sweetblue.compat.L_Util$ScanCallback)
+com.idevicesinc.sweetblue.compat.M_Util:
+    24:24:private M_Util()
+    37:46:public static void startNativeScan(com.idevicesinc.sweetblue.BleManager,int,com.idevicesinc.sweetblue.utils.Interval,com.idevicesinc.sweetblue.compat.L_Util$ScanCallback)
+    64:64:public static android.bluetooth.BluetoothGatt connect(com.idevicesinc.sweetblue.BleDevice,boolean,android.content.Context,android.bluetooth.BluetoothGattCallback)
+com.idevicesinc.sweetblue.simple_write.BuildConfig
+com.idevicesinc.sweetblue.simple_write.R
+com.idevicesinc.sweetblue.simple_write.R$attr
+com.idevicesinc.sweetblue.simple_write.R$dimen
+com.idevicesinc.sweetblue.simple_write.R$drawable
+com.idevicesinc.sweetblue.simple_write.R$id
+com.idevicesinc.sweetblue.simple_write.R$menu
+com.idevicesinc.sweetblue.simple_write.R$string
+com.idevicesinc.sweetblue.simple_write.R$style
+com.idevicesinc.sweetblue.utils.BasicUuidNameMap
+com.idevicesinc.sweetblue.utils.BitwiseEnum:
+    public abstract int or(com.idevicesinc.sweetblue.utils.BitwiseEnum)
+    public abstract int or(int)
+    public abstract java.lang.String name()
+com.idevicesinc.sweetblue.utils.BleScanInfo:
+    104:104:public java.lang.String getName()
+com.idevicesinc.sweetblue.utils.BluetoothEnabler:
+    48:48:public static com.idevicesinc.sweetblue.utils.BluetoothEnabler start(android.content.Context)
+    56:64:public static com.idevicesinc.sweetblue.utils.BluetoothEnabler start(android.content.Context,com.idevicesinc.sweetblue.utils.BluetoothEnabler$BluetoothEnablerFilter)
+    74:78:public static void resume_static(com.idevicesinc.sweetblue.utils.BluetoothEnabler$BluetoothEnablerFilter$Please)
+    86:90:public static void onActivityOrPermissionResult_static(int)
+    944:955:public void onActivityOrPermissionResult(int)
+    970:982:public void resume(com.idevicesinc.sweetblue.utils.BluetoothEnabler$BluetoothEnablerFilter$Please)
+    994:994:public boolean isPerformingSystemCall()
+com.idevicesinc.sweetblue.utils.BluetoothEnabler$BluetoothEnablerFilter$BluetoothEnablerEvent:
+    284:284:public com.idevicesinc.sweetblue.utils.BluetoothEnabler$BluetoothEnablerFilter$Stage previousStage()
+    301:301:public com.idevicesinc.sweetblue.utils.BluetoothEnabler enabler()
+    309:309:public java.lang.Object appData()
+    317:317:public boolean isDone()
+com.idevicesinc.sweetblue.utils.BluetoothEnabler$BluetoothEnablerFilter$Please:
+    private static final int PE_Option__DO_NEXT
+    private static final int PE_Option__SKIP_NEXT
+    private static final int PE_Option__END
+    private static final int PE_Option__PAUSE
+    private static final int NULL_REQUEST_CODE
+    379:379:private boolean wasSkipped()
+    410:410:public static com.idevicesinc.sweetblue.utils.BluetoothEnabler$BluetoothEnablerFilter$Please skipNext()
+    426:426:public static com.idevicesinc.sweetblue.utils.BluetoothEnabler$BluetoothEnablerFilter$Please pause()
+    444:446:public com.idevicesinc.sweetblue.utils.BluetoothEnabler$BluetoothEnablerFilter$Please withAppData(java.lang.Object)
+    452:453:public com.idevicesinc.sweetblue.utils.BluetoothEnabler$BluetoothEnablerFilter$Please withActivity(android.app.Activity)
+    461:462:public com.idevicesinc.sweetblue.utils.BluetoothEnabler$BluetoothEnablerFilter$Please withRequestCode(int)
+com.idevicesinc.sweetblue.utils.BluetoothEnabler$BluetoothEnablerFilter$Stage:
+    170:170:private com.idevicesinc.sweetblue.utils.BluetoothEnabler$BluetoothEnablerFilter$Stage previous()
+    180:180:public boolean isLast()
+    134:134:static synthetic com.idevicesinc.sweetblue.utils.BluetoothEnabler$BluetoothEnablerFilter$Stage access$100(com.idevicesinc.sweetblue.utils.BluetoothEnabler$BluetoothEnablerFilter$Stage)
+com.idevicesinc.sweetblue.utils.ByteBuffer
+com.idevicesinc.sweetblue.utils.DebugLogger
+com.idevicesinc.sweetblue.utils.Distance
+com.idevicesinc.sweetblue.utils.EmptyCursor
+com.idevicesinc.sweetblue.utils.EpochTime:
+    50:51:public EpochTime(java.util.Date)
+    82:82:public double toSeconds()
+    90:90:public java.util.Date toDate()
+    134:134:public com.idevicesinc.sweetblue.utils.EpochTimeRange minus(com.idevicesinc.sweetblue.utils.EpochTime)
+com.idevicesinc.sweetblue.utils.EpochTimeRange:
+    34:34:public static com.idevicesinc.sweetblue.utils.EpochTimeRange fromGiven_toMax(com.idevicesinc.sweetblue.utils.EpochTime)
+    42:42:public static com.idevicesinc.sweetblue.utils.EpochTimeRange fromGiven_toNow(com.idevicesinc.sweetblue.utils.EpochTime)
+    50:50:public static com.idevicesinc.sweetblue.utils.EpochTimeRange fromGiven_toGiven(com.idevicesinc.sweetblue.utils.EpochTime,com.idevicesinc.sweetblue.utils.EpochTime)
+    58:58:public static com.idevicesinc.sweetblue.utils.EpochTimeRange from1970_toGiven(com.idevicesinc.sweetblue.utils.EpochTime)
+    66:66:public static com.idevicesinc.sweetblue.utils.EpochTimeRange fromMin_toGiven(com.idevicesinc.sweetblue.utils.EpochTime)
+    74:74:public static com.idevicesinc.sweetblue.utils.EpochTimeRange from1970_toNow()
+    82:82:public static com.idevicesinc.sweetblue.utils.EpochTimeRange instant(com.idevicesinc.sweetblue.utils.EpochTime)
+    87:87:public static com.idevicesinc.sweetblue.utils.EpochTimeRange denull(com.idevicesinc.sweetblue.utils.EpochTimeRange)
+    107:108:public EpochTimeRange(long,long)
+    135:135:public boolean isValid()
+    143:143:public boolean isInvalid()
+    151:151:public boolean isZero()
+    159:159:public long getDelta()
+    167:167:public boolean isInvalidOrZero()
+    183:183:public boolean lt(com.idevicesinc.sweetblue.utils.EpochTimeRange)
+    191:191:public boolean lte(com.idevicesinc.sweetblue.utils.EpochTimeRange)
+    199:199:public boolean gt(com.idevicesinc.sweetblue.utils.EpochTimeRange)
+    207:207:public boolean gte(com.idevicesinc.sweetblue.utils.EpochTimeRange)
+com.idevicesinc.sweetblue.utils.Event:
+    21:21:public boolean isFor(java.lang.Object)
+    33:53:public varargs boolean isForAny(java.lang.Object[])
+    67:95:public varargs boolean isForAll(java.lang.Object[])
+    103:124:private static java.util.ArrayList extractMethods(java.lang.Class)
+    130:160:private static boolean isComparableType(java.lang.reflect.Method,java.lang.Class)
+    166:182:private java.util.ArrayList getMethods()
+    187:223:private java.util.ArrayList getAllObjects()
+com.idevicesinc.sweetblue.utils.EventQueue
+com.idevicesinc.sweetblue.utils.EventQueue$DispatchEntry
+com.idevicesinc.sweetblue.utils.ForEach_Breakable$Please:
+    37:37:public static com.idevicesinc.sweetblue.utils.ForEach_Breakable$Please doBreak()
+com.idevicesinc.sweetblue.utils.ForEach_Returning
+com.idevicesinc.sweetblue.utils.HistoricalData:
+    28:28:public static com.idevicesinc.sweetblue.utils.HistoricalData denull(com.idevicesinc.sweetblue.utils.HistoricalData)
+    36:37:public HistoricalData(long,byte[])
+    41:42:public HistoricalData(com.idevicesinc.sweetblue.utils.EpochTime,byte[])
+    57:58:public HistoricalData(byte[])
+    62:69:public static com.idevicesinc.sweetblue.utils.HistoricalData fromCursor(android.database.Cursor)
+    85:85:public java.util.Date getEpochTime_date()
+    93:93:public long getEpochTime_millis()
+    101:101:public java.lang.String getEpochTime_dateString(java.text.DateFormat)
+    109:109:public java.lang.String getBlob_string()
+    117:117:public byte[] getBlob()
+com.idevicesinc.sweetblue.utils.HistoricalDataColumn
+com.idevicesinc.sweetblue.utils.HistoricalDataCursor:
+    public abstract int getCount()
+    public abstract int getPosition()
+    public abstract boolean move(int)
+    public abstract boolean moveToPosition(int)
+    public abstract boolean moveToFirst()
+    public abstract boolean moveToLast()
+    public abstract boolean moveToNext()
+    public abstract boolean moveToPrevious()
+    public abstract boolean isFirst()
+    public abstract boolean isLast()
+    public abstract boolean isBeforeFirst()
+    public abstract boolean isAfterLast()
+    public abstract void close()
+    public abstract boolean isClosed()
+    public abstract long getEpochTime()
+    public abstract byte[] getBlob()
+    public abstract com.idevicesinc.sweetblue.utils.HistoricalData getHistoricalData()
+com.idevicesinc.sweetblue.utils.HistoricalDataQuery
+com.idevicesinc.sweetblue.utils.HistoricalDataQuery$1
+com.idevicesinc.sweetblue.utils.HistoricalDataQuery$Part
+com.idevicesinc.sweetblue.utils.HistoricalDataQuery$Part_AllowsFrom
+com.idevicesinc.sweetblue.utils.HistoricalDataQuery$Part_AllowsSelectColumn
+com.idevicesinc.sweetblue.utils.HistoricalDataQuery$Part_ClauseColumn
+com.idevicesinc.sweetblue.utils.HistoricalDataQuery$Part_From
+com.idevicesinc.sweetblue.utils.HistoricalDataQuery$Part_Function
+com.idevicesinc.sweetblue.utils.HistoricalDataQuery$Part_Select
+com.idevicesinc.sweetblue.utils.HistoricalDataQuery$Part_SelectColumn
+com.idevicesinc.sweetblue.utils.HistoricalDataQuery$Part_Where
+com.idevicesinc.sweetblue.utils.Interval:
+    private static final double DISABLED_VALUE
+    104:104:public static com.idevicesinc.sweetblue.utils.Interval since(long)
+    179:179:protected com.idevicesinc.sweetblue.utils.Unit newInstance(double)
+com.idevicesinc.sweetblue.utils.Percent:
+    34:34:public com.idevicesinc.sweetblue.utils.Percent clamp()
+    42:42:public double toFraction()
+    50:50:public double toDouble()
+    66:66:public int toInt_ceil()
+    74:74:public int toInt_floor()
+    82:82:public static com.idevicesinc.sweetblue.utils.Percent fromDouble(double)
+    111:111:public static com.idevicesinc.sweetblue.utils.Percent fromInt_clamped(int)
+    126:126:protected com.idevicesinc.sweetblue.utils.Unit newInstance(double)
+com.idevicesinc.sweetblue.utils.SingleElementIterator
+com.idevicesinc.sweetblue.utils.State:
+    public abstract boolean didExit(int,int)
+    public abstract boolean isNull()
+com.idevicesinc.sweetblue.utils.State$ChangeEvent:
+    51:51:public int intentMask()
+    90:90:public boolean didExit(com.idevicesinc.sweetblue.utils.State)
+    98:98:public boolean isFor(com.idevicesinc.sweetblue.utils.State)
+    106:106:public varargs boolean isForAny(com.idevicesinc.sweetblue.utils.State[])
+    114:114:public varargs boolean isForAll(com.idevicesinc.sweetblue.utils.State[])
+    135:140:public varargs boolean didExitAny(com.idevicesinc.sweetblue.utils.State[])
+    148:153:public varargs boolean didEnterAll(com.idevicesinc.sweetblue.utils.State[])
+    161:166:public varargs boolean didExitAll(com.idevicesinc.sweetblue.utils.State[])
+    175:181:public com.idevicesinc.sweetblue.utils.State$ChangeIntent getIntent(com.idevicesinc.sweetblue.utils.State)
+com.idevicesinc.sweetblue.utils.State$ChangeIntent:
+    private static final int DISK_VALUE__NULL
+    private static final int DISK_VALUE__UNINTENTIONAL
+    private static final int DISK_VALUE__INTENTIONAL
+    253:253:public int bits()
+com.idevicesinc.sweetblue.utils.TimeEstimator:
+    119:119:public double getTimeElapsed()
+    124:124:public double getTimeRemaining()
+    129:129:public int getStepsCompleted()
+    139:139:public double getRunningAverage()
+    144:144:public int getRunningAverageN()
+    149:149:public double getTotalAverage()
+com.idevicesinc.sweetblue.utils.Unit:
+    27:27:public boolean lte(com.idevicesinc.sweetblue.utils.Unit)
+    35:35:public boolean gt(com.idevicesinc.sweetblue.utils.Unit)
+    43:43:public boolean gte(com.idevicesinc.sweetblue.utils.Unit)
+    51:51:public boolean lt(double)
+    59:59:public boolean lte(double)
+    67:67:public boolean gt(double)
+    75:75:public boolean gte(double)
+    83:87:public com.idevicesinc.sweetblue.utils.Unit minus(com.idevicesinc.sweetblue.utils.Unit)
+    95:99:public com.idevicesinc.sweetblue.utils.Unit plus(com.idevicesinc.sweetblue.utils.Unit)
+    107:111:public com.idevicesinc.sweetblue.utils.Unit times(com.idevicesinc.sweetblue.utils.Unit)
+    119:123:public com.idevicesinc.sweetblue.utils.Unit dividedBy(com.idevicesinc.sweetblue.utils.Unit)
+    protected abstract com.idevicesinc.sweetblue.utils.Unit newInstance(double)
+com.idevicesinc.sweetblue.utils.UpdateLoop:
+    42:42:public static com.idevicesinc.sweetblue.utils.UpdateLoop newMainThreadLoop(com.idevicesinc.sweetblue.PI_UpdateLoop$Callback)
+    47:47:public static com.idevicesinc.sweetblue.utils.UpdateLoop newAnonThreadLoop(com.idevicesinc.sweetblue.PI_UpdateLoop$Callback)
+    71:71:public boolean isRunning()
+    113:127:public void start(double)
+    132:140:public void stop()
+    146:147:private void waitForHandler()
+    152:156:public void forcePost(java.lang.Runnable)
+    161:163:public android.os.Handler getHandler()
+    169:169:public boolean postNeeded()
+    175:178:public void postIfNeeded(java.lang.Runnable)
+com.idevicesinc.sweetblue.utils.Utils:
+    32:32:static boolean requiresBonding(android.bluetooth.BluetoothGattCharacteristic)
+    47:47:public static boolean isNougat()
+    233:243:public static boolean contains(java.lang.Object[],java.lang.Object)
+    248:265:public static boolean haveMatchingIds(java.util.List,java.util.Collection)
+com.idevicesinc.sweetblue.utils.Utils_Byte:
+    23:23:private Utils_Byte()
+    46:55:public static byte[] hexStringToBytes(java.lang.String)
+    63:69:public static java.lang.String bytesToHexString(byte[])
+    78:153:public static java.util.List fileToBinaryDataList(android.content.Context,java.lang.String,int)
+    161:163:public static byte[] subBytes(byte[],int,int)
+    171:171:public static byte[] subBytes(byte[],int)
+    179:183:public static void memcpy(byte[],byte[],int,int,int)
+    190:191:public static void memcpy(byte[],byte[],int)
+    198:202:public static void memset(byte[],byte,int)
+    209:217:public static void memset(byte[],byte,int,int)
+    224:232:public static boolean memcmp(byte[],byte[],int)
+    243:248:public static int getIntValue(byte[])
+    256:264:public static void reverseBytes(byte[])
+    271:271:public static short unsignedByte(byte)
+    279:285:public static byte[] shortToBytes(short)
+    293:300:public static short bytesToShort(byte[])
+    309:316:public static com.idevicesinc.sweetblue.utils.Pointer bytesToShort(byte[],int)
+    325:325:public static byte boolToByte(boolean)
+    333:333:public static boolean byteToBool(byte)
+    342:348:public static com.idevicesinc.sweetblue.utils.Pointer byteToBool(byte[],int)
+    357:363:public static byte[] intToBytes(int)
+    371:382:public static int bytesToInt(byte[])
+    391:398:public static com.idevicesinc.sweetblue.utils.Pointer bytesToInt(byte[],int)
+    407:413:public static byte[] longToBytes(long)
+    421:427:public static long bytesToLong(byte[])
+    436:443:public static com.idevicesinc.sweetblue.utils.Pointer bytesToLong(byte[],int)
+    452:453:public static byte[] floatToBytes(float)
+    461:462:public static float bytesToFloat(byte[])
+    471:478:public static com.idevicesinc.sweetblue.utils.Pointer bytesToFloat(byte[],int)
+    487:488:public static byte[] doubleToBytes(double)
+    496:497:public static double bytesToDouble(byte[])
+    506:513:public static com.idevicesinc.sweetblue.utils.Pointer bytesToDouble(byte[],int)
+com.idevicesinc.sweetblue.utils.Utils_Reflection:
+    62:83:public static void nullOut(java.lang.Object,java.lang.Class)
+com.idevicesinc.sweetblue.utils.Utils_Rssi:
+    31:31:private Utils_Rssi()
+    40:40:public static double distance(int,int)
+    45:60:public static double distance(int,int,double,double,double)
+com.idevicesinc.sweetblue.utils.Utils_ScanRecord:
+    private static final int DATA_TYPE_FLAGS
+    private static final int DATA_TYPE_SERVICE_UUIDS_16_BIT_PARTIAL
+    private static final int DATA_TYPE_SERVICE_UUIDS_16_BIT_COMPLETE
+    private static final int DATA_TYPE_SERVICE_UUIDS_32_BIT_PARTIAL
+    private static final int DATA_TYPE_SERVICE_UUIDS_32_BIT_COMPLETE
+    private static final int DATA_TYPE_SERVICE_UUIDS_128_BIT_PARTIAL
+    private static final int DATA_TYPE_SERVICE_UUIDS_128_BIT_COMPLETE
+    private static final int DATA_TYPE_LOCAL_NAME_SHORT
+    private static final int DATA_TYPE_LOCAL_NAME_COMPLETE
+    private static final int DATA_TYPE_TX_POWER_LEVEL
+    private static final int DATA_TYPE_SERVICE_DATA
+    private static final int DATA_TYPE_MANUFACTURER_SPECIFIC_DATA
+    private static final int UUID_BYTES_16_BIT
+    private static final int UUID_BYTES_32_BIT
+    private static final int UUID_BYTES_128_BIT
+    82:86:public static java.util.List parseServiceUuids(byte[])
+    195:307:public static void parseScanRecord(byte[],com.idevicesinc.sweetblue.utils.Pointer,com.idevicesinc.sweetblue.utils.Pointer,java.util.List,android.util.SparseArray,java.util.Map)
+com.idevicesinc.sweetblue.utils.Utils_State
+com.idevicesinc.sweetblue.utils.Utils_String:
+    private static final int FRACTION_DIGITS
+    16:23:private Utils_String()
+    33:33:public static java.lang.String bytesToMacAddress(byte[])
+    84:101:public static java.lang.String getStringValue(byte[],java.lang.String)
+    106:106:public static java.lang.String getStringValue(byte[])
+    128:160:public static android.text.SpannableString makeStateString(com.idevicesinc.sweetblue.utils.State[],int)
+    175:183:public static varargs java.lang.String makeString(java.lang.Object[])
+    188:201:public static java.lang.String prettyFormatLogList(java.util.List)
+com.idevicesinc.sweetblue.utils.Utils_String$1
+com.idevicesinc.sweetblue.utils.Utils_String$FlagOffStyle
+com.idevicesinc.sweetblue.utils.Utils_String$FlagOnStyle
+com.idevicesinc.sweetblue.utils.Utils_Time
+com.idevicesinc.sweetblue.utils.Utils_Time$1
+com.idevicesinc.sweetblue.utils.Utils_Time$2
+com.idevicesinc.sweetblue.utils.Uuids:
+    public static final java.lang.String STANDARD_UUID_TEMPLATE
+    protected static final java.lang.String BLUETOOTH_CONNECTED_HASH
+    111:111:public static java.util.UUID fromShort(int,java.lang.String)
+    135:135:public static java.util.UUID fromInt(int)
+    143:145:public static java.util.UUID fromInt(int,java.lang.String)
+    199:202:public static int getInt(java.util.UUID)
+    207:207:public static java.util.UUID random()
+com.idevicesinc.sweetblue.utils.WrongThreadError

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/ryanbis/Documents/aswork/sweetblue/app/script_output/sweetblue_2_52_05/samples/current_time_server/android_studio/app/libs/sweetblue.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6e88e430fafbc800ff79de98dc2f56ee4e1aa81">
+        <dex dex="/Users/ryanbis/Documents/aswork/sweetblue/app/script_output/sweetblue_2_52_05/samples/current_time_server/android_studio/app/build/intermediates/pre-dexed/debug/sweetblue_d9e1a352f013c22322f64194acd95f2e9cf7b673.jar" />
+    </item>
+
+</items>

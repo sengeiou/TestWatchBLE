@@ -1,0 +1,4 @@
+#Tue May 02 12:02:49 EDT 2017
+base.0=/Users/ryanbis/Documents/aswork/sweetblue/app/script_output/sweetblue_2_52_05/samples/simple_write/android_studio/app/build/intermediates/transforms/dex/release/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/ryanbis/Documents/aswork/sweetblue/app/script_output/sweetblue_2_52_05/samples/simple_write/android_studio/app/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex
